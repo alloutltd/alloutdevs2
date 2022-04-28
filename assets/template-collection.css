@@ -78,3 +78,7 @@
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
 }
+
+#featured-collection-title {
+  text-align: center;
+}
