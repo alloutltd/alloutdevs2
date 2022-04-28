@@ -226,3 +226,30 @@
     display: list-item;
   }
 }
+
+/* custom button */
+.multicolumn-card__info .link {
+  text-decoration: none;
+  font-size: inherit;
+  margin-top: 1.5rem;
+  padding: 10px 25px;
+  border-radius: 99px;
+  background-color: #fff;
+  color: #000;
+}
+
+.multicolumn-card__info .icon-wrap {
+  margin-left: 0.8rem;
+  white-space: nowrap;
+}
+
+.multicolumn-card__info .link:hover {
+  text-decoration: none;
+  font-size: inherit;
+  margin-top: 1.5rem;
+  padding: 10px 25px;
+  border-radius: 99px;
+  background-color: darken(#fff, 15%);
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+  color: #000;
+}
