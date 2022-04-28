@@ -156,3 +156,10 @@
   font-size: 20px;
   text-align: center;
 }
+
+.list-social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
