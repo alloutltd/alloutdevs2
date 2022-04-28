@@ -105,7 +105,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "inverse",
           "logo": "shopify:\/\/shop_images\/Brand_Logo_transparent_bg.png",
           "logo_width": 90,
           "logo_position": "middle-left",
