@@ -20,9 +20,9 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
+            "button_label_1": "Shop Core",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -50,26 +50,26 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "{{ section.settings.collection.title }}",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 12,
         "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
+        "full_width": true,
+        "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 36
       }
@@ -80,6 +80,7 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Padlock.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -89,6 +90,7 @@
         "column2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Customer_Service_2.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -98,6 +100,7 @@
         "column3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Package.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
