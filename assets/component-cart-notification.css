@@ -36,6 +36,7 @@
     border-width: 0 var(--popup-border-width) var(--popup-border-width);
     max-width: 36.8rem;
     right: 4rem;
+    margin-top: 98px;
   }
 }
 
