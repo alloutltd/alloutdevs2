@@ -485,6 +485,12 @@
   {% section 'header' %}
   <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
     {{ content_for_layout }}
+
+    {% for product in collections["all-products"].products %}
+
+    <h1>{{ product.title }}</h1>
+
+ {% endfor %}
   </main>
 
   {% section 'footer' %}
