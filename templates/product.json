@@ -53,36 +53,36 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Product Features",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
+            "heading": "Materials",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.my_fields.materials | metafield_text }}<\/p>",
             "page": ""
           }
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
+            "heading": "Care Instructions",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.my_fields.care_instructions | metafield_tag }}<\/p>",
             "page": ""
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "heading": "Size & Fit",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.my_fields.size_and_fit | metafield_tag }}<\/p>",
             "page": ""
           }
         },
