@@ -1160,17 +1160,19 @@ a.product__text {
 }
 
 .extra-details-container {
-  margin: 20px 30px;
+  width: auto;
+  margin: auto;
 }
 
 .extra-detail-tabs {
 list-style-type: none;
 text-align: center;
 background-color:dimgray;
+padding: 0;
 }
 
 .extra-detail-tabs li {
-  display: inline-flex;
+  display: inline-block;
   width: 25%;
   padding: 10px 20px;
 }
