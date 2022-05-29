@@ -1174,6 +1174,8 @@ width: 100%;
 display: flex;
 flex: auto;
 align-items: center;
+justify-content: center;
+margin: auto;
 }
 
 .extra-detail-tabs li {
