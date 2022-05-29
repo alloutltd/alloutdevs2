@@ -1173,6 +1173,7 @@ padding: 0;
 width: 100%;
 display: flex;
 flex: auto;
+align-items: center;
 }
 
 .extra-detail-tabs li {
