@@ -1162,6 +1162,7 @@ a.product__text {
 .extra-details-container {
   width: auto;
   margin: auto;
+  width: 100vw;
 }
 
 .extra-detail-tabs {
