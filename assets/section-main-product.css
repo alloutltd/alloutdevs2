@@ -1158,3 +1158,7 @@ a.product__text {
   display: block;
   padding-bottom: 100%;
 }
+
+.extra-detail-tabs {
+text-decoration: none;
+}
