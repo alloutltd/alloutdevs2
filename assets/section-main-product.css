@@ -1160,18 +1160,18 @@ a.product__text {
 }
 
 .extra-details-container {
-  margin: 20px 50px;
+  margin: 20px 30px;
 }
 
 .extra-detail-tabs {
 list-style-type: none;
 text-align: center;
-background-color: aqua;
 }
 
 .extra-detail-tabs li {
   display: inline-block;
   width: 25%;
   padding: 15px 30px;
+  background-color: aqua;
 }
   
