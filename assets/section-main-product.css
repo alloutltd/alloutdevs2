@@ -1166,12 +1166,12 @@ a.product__text {
 .extra-detail-tabs {
 list-style-type: none;
 text-align: center;
+background-color:dimgray;
 }
 
 .extra-detail-tabs li {
-  display: inline-block;
+  display: inline-flex;
   width: 25%;
-  padding: 15px 30px;
-  background-color: aqua;
+  padding: 10px 20px;
 }
   
