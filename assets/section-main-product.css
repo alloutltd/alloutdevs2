@@ -1172,11 +1172,20 @@ background-color:dimgray;
 padding: 0;
 width: 100%;
 display: flex;
+flex: auto;
 }
 
 .extra-detail-tabs li {
   display: inline-block;
-  width: 25%;
+  width: 20%;
   padding: 10px 20px;
 }
   
+.extra-detail-tabs li p {
+font-size: 14px;
+font-weight: 500;
+}
+
+.extra-detail-tabs li p :hover {
+  color: aqua;
+}
