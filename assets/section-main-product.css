@@ -1169,6 +1169,7 @@ list-style-type: none;
 text-align: center;
 background-color:dimgray;
 padding: 0;
+width: 100%;
 }
 
 .extra-detail-tabs li {
