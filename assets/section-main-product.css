@@ -1162,3 +1162,8 @@ a.product__text {
 .extra-detail-tabs {
 list-style-type: none;
 }
+
+.extra-detail-tabs li {
+  display: inline-block;
+}
+  
