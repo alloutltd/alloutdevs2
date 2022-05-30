@@ -1167,7 +1167,8 @@ a.product__text {
 }
 
 .product-info-ul {
-  width: auto;
+  display: inline-flex;
+  width: 100%;
   align-items: center;
   margin-top: 8px;
   text-align: center;
@@ -1184,10 +1185,9 @@ a.product__text {
   color: #fff;
   text-decoration: none;
   font-size: 1.4rem;
-  margin: auto;
 }
 
 .product-info-a:hover {
   transition: 0.5s;
-  text-decoration: underline 1px #fff 3px;
+  color: red;
 }
