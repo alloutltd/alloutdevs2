@@ -1159,43 +1159,47 @@ a.product__text {
   padding-bottom: 100%;
 }
 
-.extra-details-container {
-  margin: auto;
-  width: 100vw;
-  height: 40px;
+nav {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: beige;
+  border-radius: 8px;
+  font-size: 0;
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
 }
-
-.extra-detail-tabs {
-list-style-type: none;
-text-align: center;
-background-color:dimgray;
-padding: 0;
-width: 100%;
-display: flex;
-flex: auto;
-align-items: center;
-justify-content: center;
-margin: auto;
-}
-
-.extra-detail-tabs li {
+nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  line-height: 50px;
+  position: relative;
+  z-index: 1;
   display: inline-block;
-  width: 20%;
-  padding: 10px 20px;
+  text-align: center;
 }
-  
-.tab {
-  width: 300px;
-  height: 30px;
-  font-size: 1.8rem;
-  font-weight: bold;
-  border: none;
-  transition: ease-out 0.3s;
-  outline: none;
+nav .animation{
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  background-color: aqua;
+  width: 100px;
+  border-radius: 8px;
 }
-.tab:hover{
-  color: #fff;
-  text-decoration: underline 2px #fff;
-  transform: scale(1.2); 
-  padding-bottom: 5px;
+a:nth-child(1){
+  width: 100px;
+}
+a:nth-child(2){
+  width: 110px;
+}
+a:nth-child(3){
+  width: 100px;
+}
+a:nth-child(4){
+  width: 160px;
+}
+a:nth-child(5){
+  width: 120px;
 }
