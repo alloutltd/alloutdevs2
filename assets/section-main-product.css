@@ -1159,7 +1159,7 @@ a.product__text {
   padding-bottom: 100%;
 }
 
-nav {
+.product-info-nav {
   position: relative;
   width: 100%;
   height: 50px;
@@ -1168,7 +1168,7 @@ nav {
   font-size: 0;
   box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
 }
-nav .product-info {
+.product-info-nav .product-info {
   font-size: 15px;
   text-transform: uppercase;
   color: black;
@@ -1179,7 +1179,7 @@ nav .product-info {
   display: inline-block;
   text-align: center;
 }
-nav .animation{
+.product-info-nav .animation{
   position: absolute;
   height: 100%;
   top: 0;
