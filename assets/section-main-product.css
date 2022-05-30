@@ -1172,6 +1172,7 @@ a.product__text {
   align-items: center;
   margin-top: 8px;
   text-align: center;
+  justify-content: center;
 }
 
 .product-info-li {
