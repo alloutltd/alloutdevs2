@@ -1170,11 +1170,13 @@ a.product__text {
   width: auto;
   align-items: center;
   margin-top: 8px;
+  text-align: center;
 }
 
 .product-info-li {
   display: inline-block;
   padding: 15px 30px;
+  text-align: center;
 }
 
 .product-info-a {
