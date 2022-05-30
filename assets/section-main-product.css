@@ -1160,9 +1160,9 @@ a.product__text {
 }
 
 .extra-details-container {
-  width: auto;
   margin: auto;
   width: 100vw;
+  height: 40px;
 }
 
 .extra-detail-tabs {
@@ -1185,18 +1185,17 @@ margin: auto;
 }
   
 .tab {
-  background-color: #fff;
   width: 300px;
-  height: 20px;
-  font-size: 1.4rem;
+  height: 30px;
+  font-size: 1.8rem;
   font-weight: bold;
   border: none;
-  box-shadow: inset 10px 10px 10px 10px dimgray;
   transition: ease-out 0.3s;
   outline: none;
 }
 .tab:hover{
   color: #fff;
-  text-decoration: underline 1px #fff;
-  box-shadow: inset 300px 0 0 0 dimgray;
+  text-decoration: underline 2px #fff;
+  transform: scale(1.2); 
+  padding-bottom: 5px;
 }
