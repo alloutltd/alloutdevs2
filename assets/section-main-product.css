@@ -3,7 +3,7 @@
 }
 
 .product.grid {
-  gap: 0;
+  gap: 0 ;
 }
 
 .product--no-media {
@@ -1193,4 +1193,8 @@ a.product__text {
 .product-info-a:hover {
   transition: 0.5s;
   color: red;
+}
+
+.information-section {
+  display: none;
 }

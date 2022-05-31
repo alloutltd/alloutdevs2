@@ -7,6 +7,7 @@
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+  {{ 'product-page.js' | asset_url | | script_tag }}
 
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -628,26 +629,26 @@
 <section class="product-info">
   <nav class="product-info-nav">
     <ul class="product-info-ul">
-      <li class="product-info-li"><a href="#" class="product-info-a">Product Features</a></li>
-      <li class="product-info-li"><a href="#" class="product-info-a">Materials</a></li>
-      <li class="product-info-li"><a href="#" class="product-info-a">Care Instructions</a></li>
-      <li class="product-info-li"><a href="#" class="product-info-a">Size & Fit</a></li>
+      <li class="product-info-li"><a href="#" class="product-info-a" id="product-features-heading">Product Features</a></li>
+      <li class="product-info-li"><a href="#" class="product-info-a" id="product-materials-heading">Materials</a></li>
+      <li class="product-info-li"><a href="#" class="product-info-a" id="care-instructions-heading">Care Instructions</a></li>
+      <li class="product-info-li"><a href="#" class="product-info-a" id="size-and-fit-heading">Size & Fit</a></li>
     </ul>
   </nav>
 </section>
-<section class="features">
+<section class="information-section" id="product-features-section">
   <h1>features</h1>
   <h2>{{ product.metafields.my_fields.features }}</h2>
 </section>
-<section class="materials">
+<section class="information-section" id="product-materials-section">
   <h1>materials</h1>
   <h2>{{ product.metafields.my_fields.materials }}</h2>
 </section>
-<section class="care">
+<section class="information-section" id="care-instructions-section">
   <h1>care instructions</h1>
   <h2>{{ product.metafields.my_fields.care_instructions }}</h2>
 </section>
-<section class="size">
+<section class="information-section" id="size-and-fit-section">
   <h1>size and fit</h1>
   <h2>{{ product.metafields.my_fields.size_and_fit }}</h2>
 </section>
