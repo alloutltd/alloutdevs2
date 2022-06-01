@@ -8,6 +8,7 @@
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
   {{ 'product-page.js' | asset_url | | script_tag }}
+  <script src="{{ 'product-page.js' | asset_url }}" defer="defer"></script>
 
   {%- style -%}
     .section-{{ section.id }}-padding {
