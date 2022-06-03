@@ -1181,6 +1181,9 @@ h1 {
   height: 500px;
 }
 
+img {
+  max-height: 300px;
+}
 /* EXTRA DETAILS SECTION */
 
 #test {
