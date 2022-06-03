@@ -13,7 +13,6 @@
 
 .product__media-wrapper {
   padding-left: 0;
-  height: 600px;
 }
 
 .product__info-wrapper {
@@ -680,7 +679,7 @@ a.product__text {
 }
 
 .product-media-modal__content {
-  max-height: 100vh;
+  max-height: 75vh;
   width: 100%;
   overflow: auto;
 }
