@@ -626,17 +626,16 @@
 </section>
 
 <section class="extra-details">
-  <h1 class="test">This is a test h1</h1>
+  <h1 id="test">This is a test h1</h1>
 </section>
 
-<section>
-<div class="circle" id="circle"></div>
-<h2>test 1</h2>
-<div class="rounded" id="rounded"></div>
-<h2>test 2</h2>
-<div class="square" id="square"></div>
-<h2>test 3</h2>
-</section>
+<script type="text/javascript">
+  document.getElementById("test").onclick = function() {
+
+      document.getElementById("test").style.color = "red";
+
+  }
+  </script>
 
 {% schema %}
 {
