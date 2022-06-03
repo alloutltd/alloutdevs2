@@ -1189,6 +1189,9 @@ img {
 .product__modal-opener {
   max-height: 600px;
 }
+.product__media-gallery {
+  max-height: fit-content;
+}
 /* EXTRA DETAILS SECTION */
 
 #test {
