@@ -1184,6 +1184,10 @@ h1 {
 img {
   max-height: 600px;
 }
+
+.product__modal-opener {
+  max-height: 600px;
+}
 /* EXTRA DETAILS SECTION */
 
 #test {
