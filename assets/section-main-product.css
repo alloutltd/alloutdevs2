@@ -1195,6 +1195,9 @@ a.product__text {
   color: red;
 }
 
+h1 {
+  display: none;
+}
 h2 {
   display: none;
 }
