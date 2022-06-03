@@ -1167,7 +1167,8 @@ h1 {
 }
 
 .price-item {
-  font-size: 24px;
+  font-size: 36px;
+  font-weight: bold;
 }
 /* EXTRA DETAILS SECTION */
 
