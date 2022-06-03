@@ -96,7 +96,6 @@
             {% render 'icon-3d-model' %}
             {{ 'products.product.xr_button' | t }}
           </button>
-          <p class="collection">{{ product.metafields.my_fields.collection | upcase }}</p>
         {%- endif -%}
         {%- if media_count > 1 and section.settings.gallery_layout != 'stacked' or section.settings.mobile_thumbnails == 'show' -%}
           <slider-component id="GalleryThumbnails-{{ section.id }}" class="thumbnail-slider slider-mobile-gutter quick-add-hidden{% if section.settings.mobile_thumbnails == 'hide' %} small-hide{% endif %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}">
@@ -197,7 +196,7 @@
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
-
+        <p class="collection">{{ product.metafields.my_fields.collection | upcase }}</p>
         {%- for block in section.blocks -%}
           {%- case block.type -%}
           {%- when '@app' -%}
