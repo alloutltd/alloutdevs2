@@ -1,5 +1,5 @@
 document.getElementById("test").onclick = function() {
 
-    document.getElementById("test").style.color = "red";
+    document.getElementById("test").style.display = "none";
 
   }
