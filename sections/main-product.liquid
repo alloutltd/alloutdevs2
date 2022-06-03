@@ -631,14 +631,14 @@
 </section>
 
 <script type="text/javascript">
-  document.getElementById("test").onclick = function() {
-if (document.getElementById("test").style.color = "red") {
-  document.getElementById("test").style.color = "aqua";
-} else {
-  document.getElementById("test").style.color = "red";
-}
-}
-
+    document.getElementById("test").onclick = function() {
+      if (document.getElementById("test").style.color = "aqua") {
+        document.getElementById("test").style.color = "red";
+      } else {
+        document.getElementById("test").style.color = "aqua";
+      }
+    }
+ 
 </script>
 
 {% schema %}
