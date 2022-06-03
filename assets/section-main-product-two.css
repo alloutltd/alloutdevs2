@@ -1019,6 +1019,11 @@ a.product__text {
   .thumbnail-list__item.slider__slide {
     width: calc(33% - 0.6rem);
   }
+
+  .price-item {
+    font-size: 24px;
+    font-weight: bold;
+  }
 }
 
 @media screen and (min-width: 750px) {
