@@ -627,7 +627,31 @@
 
 <section class="extra-details">
   <h1 class="test">This is a test h1</h1>
+
+<div class="circle" id="circle"></div>
+<div class="rounded" id="rounded"></div>
+<div class="square" id="square"></div>
 </section>
+
+<script type="text/javascript">
+  document.getElementById("circle").onclick = function() {
+
+      document.getElementById("circle").style.display = "none";
+
+  }
+
+  document.getElementById("rounded").onclick = function() {
+
+      document.getElementById("rounded").style.display = "none";
+
+  }
+
+  document.getElementById("square").onclick = function() {
+
+      document.getElementById("square").style.display = "none";
+
+  }
+</script>
 
 {% schema %}
 {
