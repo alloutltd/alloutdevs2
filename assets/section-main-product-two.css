@@ -1171,10 +1171,11 @@ a.product__text {
 }
 h1 {
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .price-item {
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
 }
 
