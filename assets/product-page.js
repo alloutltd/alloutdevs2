@@ -1,5 +1,5 @@
 function showSection(element) {
-    var x = document.getElementById(element);
+    var x = main-product.liquid.getElementById(element);
     if (x.style.display != 'block') {
         x.style.display = 'block';
     } else {
