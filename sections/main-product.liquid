@@ -632,10 +632,13 @@
 
 <script type="text/javascript">
   document.getElementById("test").onclick = function() {
-
-document.getElementById("test").style.color = "red";
-
+if (document.getElementById("test").style.color = "red") {
+  document.getElementById("test").style.color = "aqua";
+} else {
+  document.getElementById("test").style.color = "red";
 }
+}
+
 </script>
 
 {% schema %}
