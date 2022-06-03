@@ -8,8 +8,6 @@
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
   {{ 'product-extra-details.css' | asset_url | stylesheet_tag }}
-  {{ 'product-extra-details.js' | asset_url | | script_tag }}
-
   {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -630,6 +628,14 @@
 <section class="extra-details">
   <h1 id="test">This is a test h1</h1>
 </section>
+
+<script type="text/javascript">
+  document.getElementById("test").onclick = function() {
+
+      document.getElementById("test").style.color = "red";
+
+  }
+  </script>
 
 {% schema %}
 {
