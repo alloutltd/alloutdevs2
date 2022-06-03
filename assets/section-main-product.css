@@ -1195,10 +1195,6 @@ a.product__text {
   color: red;
 }
 
-.information-section {
+.information-section h1 {
   display: none;
-}
-
-#product-features-section {
-  display: hidden;
 }
