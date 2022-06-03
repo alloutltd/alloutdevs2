@@ -1194,3 +1194,8 @@ a.product__text {
   transition: 0.5s;
   color: red;
 }
+
+#test {
+  color: aqua;
+  margin-left: 20px;
+}
