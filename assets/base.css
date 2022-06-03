@@ -5838,7 +5838,7 @@ a:hover {
  }
   .product--thumbnail_slider .thumbnail-slider .thumbnail-list.slider--tablet-up {
     padding: 0;
-    display: block;
+    display: flex;
  }
   .product--thumbnail_slider .thumbnail-slider .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
     width: 100%;
