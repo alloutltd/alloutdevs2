@@ -1162,7 +1162,9 @@ a.product__text {
 .product__text {
   margin-top: 0;
 }
-
+h1 {
+  margin-bottom: 0;
+}
 /* EXTRA DETAILS SECTION */
 
 #test {
