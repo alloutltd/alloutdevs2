@@ -1200,5 +1200,5 @@ a.product__text {
 }
 
 #product-features-section {
-  display: none;
+  display: hidden;
 }
