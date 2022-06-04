@@ -18,6 +18,13 @@
             "answer": "<p>We are so sorry that you have received the wrong items.<\/p><p><br\/><\/p><p>Please return this back to us as soon as possible, so that we can get this resolved for you straight away. Please ensure that you choose the 'incorrect item(s)' option when choosing why you are returning you item(s).<\/p><p><br\/><\/p><p>We will get this sorted for you as quickly as possible.<\/p><p><br\/><\/p><p>Please note that if you would still like the items that you originally ordered and they are still in stock, you will need to place a new order for these items through our website as normal. You will receive a full refund for the order containing the wrong items.<\/p>"
           }
         },
+        "f4f889cf-6c86-44de-ab9e-d9630657d124": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I have my order sent as a gift?",
+            "answer": "<p>Yes, you can have items sent as a gift for somebody else.<\/p><p><br\/><\/p><p>Make sure that you choose the 'this is a gift' option at checkout to ensure that this parcel is sent as a gift.<\/p><p><br\/><\/p><p>We do not offer a gift wrapping service, to have it wrapped differently to a regular parcel, however there are a few things that we will do to make it more special.<\/p><p><br\/><\/p><p>We will not include the returns form within the parcel, so you don't have to worry about the recipient knowing how much you have spent. In the event that the recipient is not 100% happy with the parcel and needs the item(s) returned, we will only speak with the registered buyer of the order not the recipient.<\/p><p><br\/><\/p><p>If you are to need the returns form, get in touch with us and we can send you one electronically for you to print out and use.<\/p><p><br\/><\/p><p>As with all orders, a personal message will be left in the package. This note will be personal to the person listed on the delivery address, so if it is going straight to the recipient please ensure it is there name used on the delivery address.<\/p>"
+          }
+        },
         "b649abf1-8411-41d5-8583-c339c85d9f56": {
           "type": "faq",
           "settings": {
@@ -42,6 +49,7 @@
       },
       "block_order": [
         "9ccdc4b3-6363-4007-8c89-65a5b01b72b2",
+        "f4f889cf-6c86-44de-ab9e-d9630657d124",
         "b649abf1-8411-41d5-8583-c339c85d9f56",
         "433a8be0-8296-40ca-958b-abdbb8a47616",
         "9c5a5c75-8e0e-4d3a-9caf-87466b477a84"
