@@ -12,6 +12,7 @@
   .tabs {
     border-radius: 5px;
     overflow: hidden;
+    width: 85%;
   }
   
   .tab {
