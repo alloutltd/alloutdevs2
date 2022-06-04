@@ -57,7 +57,21 @@
       margin-bottom: 40px;
   }
 
+.contact-us-wording {
+    align-items: center;
+    justify-content: center;
+}
+
   .contact-us {
       text-align: center;
-      width: 50%;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 0;
+  }
+
+  a {
+      width: 100%;
+      align-items: center;
+      text-align: center;
   }
