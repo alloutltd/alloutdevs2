@@ -1,4 +1,4 @@
 
   AVADA_SC.campaigns = [];
-  AVADA_SC.settings = {};
+  AVADA_SC.settings = {"id":"JWpAnspPLrKxEVbjur4c","modalPosition":"modal-center","enableGa":false,"linkIcon":"","hideText":true,"buttonInlinePosition":"before-add-cart","modalLeft":8,"linkTextColor":"#232323","modalTop":18,"displayType":"float-button","showMobile":true,"collectionPagePosition":"","shopId":"CEpnSpKssl8uGoKgF9VW","createdAt":{"_seconds":1654334539,"_nanoseconds":358000000},"tableHoverColor":"#bdbdbd","collectionPageInlinePosition":"after","linkBgColor":"#FFFFFF","modalBorderRadius":10,"customIcon":false,"modalWidth":84,"buttonBorderRadius":10,"tableAnimation":true,"mobilePosition":"top","modalOverlayColor":"#7b7b7b","showAdvanced":false,"modalHeight":64,"position":"","buttonHeight":"35","inlinePosition":"after","homePagePosition":"","buttonRotation":true,"buttonWidth":"80","buttonPosition":"middle-right","homePageInlinePosition":"after","modalTextColor":"#232323","linkText":"Size chart","customCss":"","modalShadow":true,"modalHeader":"Size guides","shopDomain":"all-out-devs-2.myshopify.com","modalBgColor":"#FFFFFF"};
   
