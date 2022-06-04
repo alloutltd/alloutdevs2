@@ -52,3 +52,7 @@
     max-height: 100vh;
     padding: 1em;
   }
+
+  .faq-container {
+      margin-bottom: 40px;
+  }
