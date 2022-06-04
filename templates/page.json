@@ -14,22 +14,15 @@
         "9ccdc4b3-6363-4007-8c89-65a5b01b72b2": {
           "type": "faq",
           "settings": {
-            "question": "I have received the wrong items.",
-            "answer": "<p>We are so sorry that you have received the wrong items.<\/p><p><br\/><\/p><p>Please return this back to us as soon as possible, so that we can get this resolved for you straight away. Please ensure that you choose the 'incorrect item(s)' option when choosing why you are returning you item(s).<\/p><p><br\/><\/p><p>We will get this sorted for you as quickly as possible.<\/p><p><br\/><\/p><p>Please note that if you would still like the items that you originally ordered and they are still in stock, you will need to place a new order for these items through our website as normal. You will receive a full refund for the order containing the wrong items.<\/p>"
-          }
-        },
-        "c521f757-3399-44b5-8349-873596d7ae82": {
-          "type": "faq",
-          "settings": {
-            "question": "I am missing an item from my order.",
-            "answer": "<p>We are so sorry that you are missing an item from your order.<\/p><p>​<\/p><p>Please see below some likely reasons as to why this may have happened:<\/p><p>​<\/p><p>We may have sent your items in separate parcels, we would let you know of this via email, so please check your emails for this<\/p><p>The item(s) that you ordered went out of stock, since you ordered them, we would notify you of this via email so please check your emails for this<\/p><p>​<\/p><p>In the unlikely event of us missing an item off of your order by mistake, we will get this resolved for you straight away. Please get in touch with our support team to get assistance with this.<\/p><p>​<\/p><p>To contact our support team, you can do so via <span style=\"text-decoration:underline\">this link<\/span>.<\/p>"
+            "question": "Why have I received an email saying that my items are out of stock?",
+            "answer": "<p>Our items can sell out fast, especially after restocks. Sometimes, orders can get placed before the website is updated with the items being out of stock. In this event, your order may still be placed and you may get charged for it.<\/p><p>We will send you an email to inform you that the items are out of stock and what the next steps are, part of this will be issuing you a refund.<\/p><p>​<\/p><p>If you would still like the items once they are back in stock, you will need to place a new order, via our website, in the same way that you did originally.<\/p>"
           }
         },
         "b649abf1-8411-41d5-8583-c339c85d9f56": {
           "type": "faq",
           "settings": {
-            "question": "Can I cancel my order?",
-            "answer": ""
+            "question": "Where can I find your care instructions?",
+            "answer": "<p>All of our products contain care instructions that should be followed in order to maintain the extremely high quality of our garments.<\/p><p>​<\/p><p>Care instructions can be found in two places:<\/p><p>​<\/p><p>On a tag, on the inside of all of our garments<\/p><p>On the product page of our website<\/p><p>​<\/p><p>All of the care instructions for our garments vary based on the materials used to make the garments, so please ensure that you read the care instructions carefully before attempting to care for your garments.<\/p>"
           }
         },
         "9c5a5c75-8e0e-4d3a-9caf-87466b477a84": {
@@ -38,16 +31,39 @@
             "question": "I have received a faulty item.",
             "answer": "<p>We are so sorry that you have received a faulty item.<\/p><p>​<\/p><p>Please return this back to us as soon as possible, so that we can get this resolved for you. Please ensure that you choose the 'faulty item' option when choosing why you are returning you item(s).<\/p><p>​<\/p><p>We will get this sorted for you as quickly as possible.<\/p><p>​<\/p><p>Please note that all items are inspected upon return, so items that can not easily be identified as 'faulty' and could instead have damage inflicted for other reasons may not be refunded in full, or refunded at all.<\/p>"
           }
+        },
+        "433a8be0-8296-40ca-958b-abdbb8a47616": {
+          "type": "faq",
+          "settings": {
+            "question": "You do not stock my size.",
+            "answer": "<p>Currently, we only stock certain sizes. This is with the goal of stocking a far wider range of sizes, both smaller and larger than what we currently stock.<\/p><p>​<\/p><p>This is a short term goal of ours, so we hope to achieve this for you in the near future.<\/p><p>​<\/p><p>You can check if we have started stocking your size via our news page, where we will immediately update the page when we stock new products and sizes.<\/p><p>​<\/p><p>You can access the news page via <span style=\"text-decoration:underline\">this link<\/span>.<\/p>"
+          }
+        },
+        "2067cb4b-2874-43a1-99a3-04869cec9c8b": {
+          "type": "faq",
+          "settings": {
+            "question": "Will you restock an item?",
+            "answer": "<p>Unfortunately, we are unable to give information about if or when a particular item is going to be coming back in stock.<\/p><p>​<\/p><p>However, if and when an item is back in stock, we will send an email to our newsletter subscribers informing them of this restock. So, ensure that you are signed up to our newsletter mailing list so that you don't miss out!<\/p><p>​<\/p><p>You can sign up to the newsletter via <span style=\"text-decoration:underline\">this link<\/span>.<\/p><p>​<\/p><p>Not only this, but we update our 'back in stock' news page with all of our restocks when they happen. So, be sure to check out this page regularly to be the first to know.<\/p><p>​<\/p><p>You can go to the news page via <span style=\"text-decoration:underline\">this link<\/span>.<\/p>"
+          }
+        },
+        "adf79284-9eed-4114-beb0-8ed7f10573c0": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have a size guide?",
+            "answer": ""
+          }
         }
       },
       "block_order": [
         "9ccdc4b3-6363-4007-8c89-65a5b01b72b2",
-        "c521f757-3399-44b5-8349-873596d7ae82",
         "b649abf1-8411-41d5-8583-c339c85d9f56",
-        "9c5a5c75-8e0e-4d3a-9caf-87466b477a84"
+        "9c5a5c75-8e0e-4d3a-9caf-87466b477a84",
+        "433a8be0-8296-40ca-958b-abdbb8a47616",
+        "2067cb4b-2874-43a1-99a3-04869cec9c8b",
+        "adf79284-9eed-4114-beb0-8ed7f10573c0"
       ],
       "settings": {
-        "faq_title": "FAQs - My Order",
+        "faq_title": "FAQs - Products & Stock",
         "faq_description": "Need help with your order? We're sure that our FAQs can tell you what you would like to know!"
       }
     }
