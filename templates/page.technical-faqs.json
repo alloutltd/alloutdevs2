@@ -29,13 +29,13 @@
           "type": "faq",
           "settings": {
             "question": "How can I remove items from my wishlist?",
-            "answer": "<p>We are so sorry that you have received a faulty item.<\/p><p>​<\/p><p>Please return this back to us as soon as possible, so that we can get this resolved for you. Please ensure that you choose the 'faulty item' option when choosing why you are returning you item(s).<\/p><p>​<\/p><p>We will get this sorted for you as quickly as possible.<\/p><p>​<\/p><p>Please note that all items are inspected upon return, so items that can not easily be identified as 'faulty' and could instead have damage inflicted for other reasons may not be refunded in full, or refunded at all.<\/p>"
+            "answer": "<p>Firstly, please ensure that you are signed in to your All Out account, then follow these simple steps below:<\/p><p>​<\/p><p>Navigate to your account via to account bar at the top right of your screen (desktop) or via the menu (mobile)<\/p><p>Select the 'my wishlist' option from the member's options under your account bar<\/p><p>Hover over the item that you would like to remove<\/p><p>Select the X at the top right of the product image<\/p><p>​<\/p><p>After doing so, it will no longer be part of your wishlist.<\/p>"
           }
         },
         "433a8be0-8296-40ca-958b-abdbb8a47616": {
           "type": "faq",
           "settings": {
-            "question": "You do not stock my size.",
+            "question": "How can I sign up to receive All Out newsletters?",
             "answer": "<p>Currently, we only stock certain sizes. This is with the goal of stocking a far wider range of sizes, both smaller and larger than what we currently stock.<\/p><p>​<\/p><p>This is a short term goal of ours, so we hope to achieve this for you in the near future.<\/p><p>​<\/p><p>You can check if we have started stocking your size via our news page, where we will immediately update the page when we stock new products and sizes.<\/p><p>​<\/p><p>You can access the news page via <span style=\"text-decoration:underline\">this link<\/span>.<\/p>"
           }
         },
