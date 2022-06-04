@@ -22,13 +22,13 @@
           "type": "faq",
           "settings": {
             "question": "Do you have a mobile app?",
-            "answer": "<p>All of our products contain care instructions that should be followed in order to maintain the extremely high quality of our garments.<\/p><p>​<\/p><p>Care instructions can be found in two places:<\/p><p>​<\/p><p>On a tag, on the inside of all of our garments<\/p><p>On the product page of our website<\/p><p>​<\/p><p>All of the care instructions for our garments vary based on the materials used to make the garments, so please ensure that you read the care instructions carefully before attempting to care for your garments.<\/p>"
+            "answer": "<p>Currently, we do not have a mobile app.<\/p><p>​<\/p><p>Any activity that you want to complete must be done so via our online website.<\/p>"
           }
         },
         "9c5a5c75-8e0e-4d3a-9caf-87466b477a84": {
           "type": "faq",
           "settings": {
-            "question": "I have received a faulty item.",
+            "question": "How can I remove items from my wishlist?",
             "answer": "<p>We are so sorry that you have received a faulty item.<\/p><p>​<\/p><p>Please return this back to us as soon as possible, so that we can get this resolved for you. Please ensure that you choose the 'faulty item' option when choosing why you are returning you item(s).<\/p><p>​<\/p><p>We will get this sorted for you as quickly as possible.<\/p><p>​<\/p><p>Please note that all items are inspected upon return, so items that can not easily be identified as 'faulty' and could instead have damage inflicted for other reasons may not be refunded in full, or refunded at all.<\/p>"
           }
         },
