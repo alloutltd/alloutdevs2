@@ -1,1 +1,51 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":28,"padding_bottom":28}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16543453617d3189d4": {
+      "type": "faq",
+      "blocks": {
+        "9ccdc4b3-6363-4007-8c89-65a5b01b72b2": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have a question?",
+            "answer": "<p>I have an answer<\/p>"
+          }
+        },
+        "c521f757-3399-44b5-8349-873596d7ae82": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have a question?",
+            "answer": "<p>I have an answer<\/p>"
+          }
+        },
+        "b649abf1-8411-41d5-8583-c339c85d9f56": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have a question?",
+            "answer": "<p>I have an answer<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9ccdc4b3-6363-4007-8c89-65a5b01b72b2",
+        "c521f757-3399-44b5-8349-873596d7ae82",
+        "b649abf1-8411-41d5-8583-c339c85d9f56"
+      ],
+      "settings": {
+        "faq_title": "FAQs - Delivery",
+        "faq_description": "Need help with your delivery? We're sure that our FAQs can tell you what you would like to know!"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16543453617d3189d4"
+  ]
+}
