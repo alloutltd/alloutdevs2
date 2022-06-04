@@ -751,6 +751,7 @@ class VariantSelects extends HTMLElement {
 
   onVariantChange() {
     this.updateOptions();
+    this.filterMedia();
     this.updateMasterId();
     this.toggleAddButton(true, '', false);
     this.updatePickupAvailability();
@@ -767,6 +768,22 @@ class VariantSelects extends HTMLElement {
       this.updateShareUrl();
     }
   }
+
+
+
+  filterMedia() {
+    
+    $('[thumbnail-color]').hide();
+
+var selected_variant = this.currentVariant.featured_media.alt;
+
+var selected_attribute = '[thumbnail-color="' + selected_variant + '"]';
+
+if (selected_variant == selected_variant) {
+ 
+ $(selected_attribute).show();
+
+} }
 
   updateOptions() {
     this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
