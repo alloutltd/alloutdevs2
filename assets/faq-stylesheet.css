@@ -10,15 +10,15 @@
   }
   
   .tabs {
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0px 0px 12px #4141416e;
+    height: 30px;
   }
   
   .tab {
     width: 100%;
-    color: white;
     overflow: hidden;
+    margin-bottom: 15px;
   }
   
   .tab-label {
@@ -46,4 +46,3 @@
     max-height: 100vh;
     padding: 1em;
   }
-  Code language: CSS (css)
