@@ -14,64 +14,29 @@
         "9ccdc4b3-6363-4007-8c89-65a5b01b72b2": {
           "type": "faq",
           "settings": {
-            "question": "what delivery services do you offer?",
-            "answer": "<p>We currently offer two variations of delivery.<\/p><p><strong>Standard Delivery (International)<\/strong><\/p><p><strong>Premium Delivery (UK only)<\/strong><\/p><p>We select the courier for your delivery based on the location of the delivery address and the value of your order.<\/p><p><br\/><\/p><p>All orders are fully tracked. Once you have placed your order you will receive an order confirmation, via email. Once your order has been dispatched from our warehouse we will send you another email including your order and delivery information, this will include your tacking number so that you can track the delivery.<\/p><p><br\/><\/p><p>If you provide your mobile number upon placing your order then you will receive SMS updates from the courier, regarding the delivery of your order.<\/p>"
+            "question": "I have received the wrong items.",
+            "answer": "<p>We are so sorry that you have received the wrong items.<\/p><p><br\/><\/p><p>Please return this back to us as soon as possible, so that we can get this resolved for you straight away. Please ensure that you choose the 'incorrect item(s)' option when choosing why you are returning you item(s).<\/p><p><br\/><\/p><p>We will get this sorted for you as quickly as possible.<\/p><p><br\/><\/p><p>Please note that if you would still like the items that you originally ordered and they are still in stock, you will need to place a new order for these items through our website as normal. You will receive a full refund for the order containing the wrong items.<\/p>"
           }
         },
         "c521f757-3399-44b5-8349-873596d7ae82": {
           "type": "faq",
           "settings": {
-            "question": "Can I track my order?",
-            "answer": "<p>Yes, you can track your order.<\/p><p><br\/><\/p><p>Upon dispatch of your order, from our warehouse, you will receive an email informing you of this. Within the email you will find a tracking number and a link that you can follow to track your order.<\/p><p><br\/><\/p><p>If you provide your mobile number upon placing your order, then you will receive SMS updates from the courier at every stage of the delivery journey.<\/p>"
+            "question": "I am missing an item from my order.",
+            "answer": "<p>We are so sorry that you are missing an item from your order.<\/p><p>​<\/p><p>Please see below some likely reasons as to why this may have happened:<\/p><p>​<\/p><p>We may have sent your items in separate parcels, we would let you know of this via email, so please check your emails for this<\/p><p>The item(s) that you ordered went out of stock, since you ordered them, we would notify you of this via email so please check your emails for this<\/p><p>​<\/p><p>In the unlikely event of us missing an item off of your order by mistake, we will get this resolved for you straight away. Please get in touch with our support team to get assistance with this.<\/p><p>​<\/p><p>To contact our support team, you can do so via <span style=\"text-decoration:underline\">this link<\/span>.<\/p>"
           }
         },
         "b649abf1-8411-41d5-8583-c339c85d9f56": {
           "type": "faq",
           "settings": {
-            "question": "How long will my order take to arrive?",
-            "answer": "<p>Unfortunately, we are not able to provide exact timeframes on when you will receive your order. <\/p><p><br\/><\/p><p>This timeframe varies due to many factors, such as your location and chosen delivery service. There are also many external factors that we can not control.<\/p>"
+            "question": "Can I cancel my order?",
+            "answer": ""
           }
         },
         "9c5a5c75-8e0e-4d3a-9caf-87466b477a84": {
           "type": "faq",
           "settings": {
-            "question": "Where is my order?",
-            "answer": "<p>If you are yet to receive confirmation of the dispatch of your order then it is currently still with us at the warehouse.<\/p><p><br\/><\/p><p>Once you have received a dispatch confirmaiton email, please use the link and tracking number provided to track the status of your order.<\/p><p><br\/><\/p><p>If the delivery has surpassed the estimated delivery date (found in your order confirmation email) and you are yet to receive your order then please allow a few days for your delivery to arrive, our couriers work extremely hard to delivery all orders on time. But, this can sometimes be difficult.<\/p><p><br\/><\/p><p>If it has been a few days since the estimated delivery date then please get in touch with us and we will do what we can to get this sorted immediately for you.<\/p>"
-          }
-        },
-        "fa3ddf23-ee2d-461e-94a1-b47764289954": {
-          "type": "faq",
-          "settings": {
-            "question": "I have not received my order.",
-            "answer": "<p>If the delivery has surpassed the estimated delivery date (found in your order confirmation email) and you are yet to receive your order then please allow a few days for your delivery to arrive, our couriers work extremely hard to delivery all orders on time. But, this can sometimes be difficult.<\/p><p><br\/><\/p><p>If it has been a few days since the estimated delivery date then please get in touch with us and we will do what we can to get this sorted immediately for you.<\/p>"
-          }
-        },
-        "15c7d186-b60c-4857-b316-621554d0f0a0": {
-          "type": "faq",
-          "settings": {
-            "question": "What if I am not in when my order arrives?",
-            "answer": "<p>If you are not available at the time of delivery then there are various situations that could occur, depending on the courier delivering your order.<\/p><p><br\/><\/p><p>If a signature is needed upon delivery, then it is likely that the courier will try to re-deliver at another time.<\/p><p><br\/><\/p><p>If no signature is necessary, the courier may leave you a calling card stating the location of your parcel. This could be left with a neighbour, in your provided safe place or with the courier where you may have to collect it from.<\/p><p><br\/><\/p><p>Upon placing the order, we give you the opportunity to tell us where you would like the parcel to be left for if such events occur. If this is left unanswered, then it is the courier's decision to decide what happens with your parcel.<\/p>"
-          }
-        },
-        "357e020a-c691-4b70-940a-23127cbc11e4": {
-          "type": "faq",
-          "settings": {
-            "question": "Can I choose when I have my order delivered?",
-            "answer": "<p>Currently, we do not allow you to decide when to have your order delivered. Which is why it is important that you take a note of your estimated delivery date and track your parcel, so that you know when to expect it.<\/p><p><br\/><\/p><p>However, giving ypu the opportunity to decide when you shall receive your order is something that we are looking into making an option for you in the near future.<\/p>"
-          }
-        },
-        "e3546e7f-87b2-47f4-acb8-fefe9580832e": {
-          "type": "faq",
-          "settings": {
-            "question": "Can I have my order delivered to my work address?",
-            "answer": "<p>Yes, you can have your order delivered to your place of work.<\/p><p><br\/><\/p><p>However, please ensure that there is somebody present to tae your delivery for you. The courier will not seek you out specifically, so please make sure that this person is trusted as we can not do anything about a loss of the parcel once it has been confirmed to have been delivered to the correct location.<\/p>"
-          }
-        },
-        "b7b6b49f-d1d3-49bf-ab3f-82245c862916": {
-          "type": "faq",
-          "settings": {
-            "question": "Why has my order been returned to All Out?",
-            "answer": "<p>If your order has been returned to All Out by the courier, then please see below the likely reasons why:<\/p><p>The parcel was refused upon delivery<\/p><p>There was no clear route of access for the courier at the delivery address<\/p><p>The delivery address was not clear for the courier<\/p><p>The parcel was damaged during transit<\/p><p>The order was not collected after failed delivery within the alotted timeframe<\/p><p>In the event of this occuring, we will send you an email upon receiving your order to inform you of what has happened. In this event, we will refund you the full amount for the items in your order. If you would still like the items in your order, then please place a new order for the times (please be aware that items may go out of stock within the period).<\/p><p><br\/><\/p><p>If you would like to know more about our refund process then please <span style=\"text-decoration:underline\">click here<\/span>.<\/p>"
+            "question": "I have received a faulty item.",
+            "answer": "<p>We are so sorry that you have received a faulty item.<\/p><p>​<\/p><p>Please return this back to us as soon as possible, so that we can get this resolved for you. Please ensure that you choose the 'faulty item' option when choosing why you are returning you item(s).<\/p><p>​<\/p><p>We will get this sorted for you as quickly as possible.<\/p><p>​<\/p><p>Please note that all items are inspected upon return, so items that can not easily be identified as 'faulty' and could instead have damage inflicted for other reasons may not be refunded in full, or refunded at all.<\/p>"
           }
         }
       },
@@ -79,16 +44,11 @@
         "9ccdc4b3-6363-4007-8c89-65a5b01b72b2",
         "c521f757-3399-44b5-8349-873596d7ae82",
         "b649abf1-8411-41d5-8583-c339c85d9f56",
-        "9c5a5c75-8e0e-4d3a-9caf-87466b477a84",
-        "fa3ddf23-ee2d-461e-94a1-b47764289954",
-        "15c7d186-b60c-4857-b316-621554d0f0a0",
-        "357e020a-c691-4b70-940a-23127cbc11e4",
-        "e3546e7f-87b2-47f4-acb8-fefe9580832e",
-        "b7b6b49f-d1d3-49bf-ab3f-82245c862916"
+        "9c5a5c75-8e0e-4d3a-9caf-87466b477a84"
       ],
       "settings": {
-        "faq_title": "FAQs - Delivery",
-        "faq_description": "Need help with your delivery? We're sure that our FAQs can tell you what you would like to know!"
+        "faq_title": "FAQs - My Order",
+        "faq_description": "Need help with your order? We're sure that our FAQs can tell you what you would like to know!"
       }
     }
   },
