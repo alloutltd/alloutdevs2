@@ -83,4 +83,15 @@
       width: 100%;
       align-items: center;
       text-align: center;
+      text-decoration: none;
+  }
+
+  .contact {
+    margin: 20px auto;
+    padding: 10px 18px;
+    border-radius: 10px;
+    background-color: #141414;
+    color: #fff;
+    border: 1px solid #141414;
+    transition: ease-in 0.3s cyan;
   }
