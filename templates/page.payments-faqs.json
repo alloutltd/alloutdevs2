@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16543453617d3189d4": {
+      "type": "faq",
+      "blocks": {
+        "9ccdc4b3-6363-4007-8c89-65a5b01b72b2": {
+          "type": "faq",
+          "settings": {
+            "question": "What is sales tax?",
+            "answer": ""
+          }
+        },
+        "b649abf1-8411-41d5-8583-c339c85d9f56": {
+          "type": "faq",
+          "settings": {
+            "question": "I have been overcharged, what should I do?",
+            "answer": "<p>We are sorry that you have been overcharged for your order.<\/p><p>​<\/p><p>There are certain likely reasons that could be the cause of this, however it may not mean you have been truly overcharged.<\/p><p>​<\/p><p>If you feel that you have been overcharged however, please get in touch with our support team who will be happy to help. If it is apparent that you have been overcharged, we will refund you straight away.<\/p><p>​<\/p><p>Please note that refunds can take 3-5 working days until they appear in your account, from the moment that they are processed.<\/p>"
+          }
+        },
+        "9c5a5c75-8e0e-4d3a-9caf-87466b477a84": {
+          "type": "faq",
+          "settings": {
+            "question": "When am I charged for my order?",
+            "answer": "<p>Once you have checked out after placing your order, you will be charged immediately. This is assuming that your card has been authorised, once it has been authorised you will receive an order confirmation email to confirm this for you.<\/p>"
+          }
+        },
+        "433a8be0-8296-40ca-958b-abdbb8a47616": {
+          "type": "faq",
+          "settings": {
+            "question": "can I use multiple promo codes on my order?",
+            "answer": "<p>Promo codes can not be combined on the same order.<\/p><p>​<\/p><p>It is unlikely that we will release multiple promo codes to be used in the same time frame. However in the event that we do, it will not be possible to combine these codes.<\/p>"
+          }
+        },
+        "2067cb4b-2874-43a1-99a3-04869cec9c8b": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer blue light discount?",
+            "answer": "<p>Currently, we do not have a way of offering blue light discount.<\/p><p>​<\/p><p>This is something that we are hoping to make possible in the future.<\/p>"
+          }
+        },
+        "adf79284-9eed-4114-beb0-8ed7f10573c0": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer student discount?",
+            "answer": "<p>We do not currently have a way of offering student discount.<\/p><p>​<\/p><p>This is something that will are hoping to make possible in the future.<\/p>"
+          }
+        },
+        "791a4fa7-cde3-458a-b6a0-c7b2100d255f": {
+          "type": "faq",
+          "settings": {
+            "question": "can I pay in installments?",
+            "answer": "<p>I have an answer<\/p>"
+          }
+        },
+        "fa0e7831-a810-4c20-b8ff-a5798cb54017": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you offer gift cards?",
+            "answer": "<p>Currently, we do not offer gift cards.<\/p><p>​<\/p><p>This is something that we are working on and will hopefully be available for purchase soon.<\/p>"
+          }
+        },
+        "f9131b98-2b47-48d4-90d7-cd8f86fb7157": {
+          "type": "faq",
+          "settings": {
+            "question": "which payment methods do you accept?",
+            "answer": "<p>Currently, we only accept debit and credit card payments, check below to see which providers we accept:<\/p><p>​<\/p><p>Visa<\/p><p>Mastercard<\/p><p>Amex<\/p><p>ChinaUnionPay<\/p><p>Jcb<\/p><p>Diners<\/p><p>CartesBancaires<\/p><p>Discover<\/p><p>Electron<\/p><p>Maestro<\/p><p>​<\/p><p>Unfortunately, any other credit\/debit cards will not be accepted at checkout.<\/p><p>​<\/p><p>We are working hard and fast to allow more payment methods to be accepted at checkout, you can keep an eye on our news page to see when we announce a new method of payment.<\/p><p>​<\/p><p>You can access our news page via this link.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9ccdc4b3-6363-4007-8c89-65a5b01b72b2",
+        "b649abf1-8411-41d5-8583-c339c85d9f56",
+        "9c5a5c75-8e0e-4d3a-9caf-87466b477a84",
+        "433a8be0-8296-40ca-958b-abdbb8a47616",
+        "2067cb4b-2874-43a1-99a3-04869cec9c8b",
+        "adf79284-9eed-4114-beb0-8ed7f10573c0",
+        "791a4fa7-cde3-458a-b6a0-c7b2100d255f",
+        "fa0e7831-a810-4c20-b8ff-a5798cb54017",
+        "f9131b98-2b47-48d4-90d7-cd8f86fb7157"
+      ],
+      "settings": {
+        "faq_title": "FAQs - Payments & Promotions",
+        "faq_description": "Need help with our payment terms? We're sure that our FAQs can tell you what you would like to know!"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16543453617d3189d4"
+  ]
+}

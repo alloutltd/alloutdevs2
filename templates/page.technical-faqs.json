@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16543453617d3189d4": {
+      "type": "faq",
+      "blocks": {
+        "9ccdc4b3-6363-4007-8c89-65a5b01b72b2": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I unsubscribe from All Out newsletters?",
+            "answer": "<p>At the bottom of all of our marketing communications there is an 'unsubscribe' link that you can follow to unsubscribe from All Out email marketing.<\/p><p>​<\/p><p>Once you are redirected to another page, click the 'unsubscribe' button and you will no longer receive marketing emails from All Out.<\/p>"
+          }
+        },
+        "b649abf1-8411-41d5-8583-c339c85d9f56": {
+          "type": "faq",
+          "settings": {
+            "question": "Do you have a mobile app?",
+            "answer": "<p>Currently, we do not have a mobile app.<\/p><p>​<\/p><p>Any activity that you want to complete must be done so via our online website.<\/p>"
+          }
+        },
+        "9c5a5c75-8e0e-4d3a-9caf-87466b477a84": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I remove items from my wishlist?",
+            "answer": "<p>Firstly, please ensure that you are signed in to your All Out account, then follow these simple steps below:<\/p><p>​<\/p><p>Navigate to your account via to account bar at the top right of your screen (desktop) or via the menu (mobile)<\/p><p>Select the 'my wishlist' option from the member's options under your account bar<\/p><p>Hover over the item that you would like to remove<\/p><p>Select the X at the top right of the product image<\/p><p>​<\/p><p>After doing so, it will no longer be part of your wishlist.<\/p>"
+          }
+        },
+        "433a8be0-8296-40ca-958b-abdbb8a47616": {
+          "type": "faq",
+          "settings": {
+            "question": "How can I sign up to receive All Out newsletters?",
+            "answer": "<p>When signing up to All Out and creating an account, you consent to receiving All Out marketing subscriptions. In this case, you will automatically begin receiving marketing communications from All Out.<\/p><p>​<\/p><p>You can also receive newsletters by signing up to receive them via the newsletter link at the bottom of our website, you do not have to create an account to do so but you will still receive the marketing communications from All Out.<\/p>"
+          }
+        },
+        "2067cb4b-2874-43a1-99a3-04869cec9c8b": {
+          "type": "faq",
+          "settings": {
+            "question": "why am I not receiving All Out communications?",
+            "answer": "<p>When signing up to All Out and creating an account, you consent to receiving All Out marketing subscriptions.<\/p><p>​<\/p><p>In the event that you are not receiving marketing communications from All Out please check the following below:<\/p><p>​<\/p><p>You have used the correct email<\/p><p>This can be easily completed by signing into your account using the email you originally used to sign up, if it is not recognised then you have not used the correct email address.<\/p><p>​<\/p><p>Check your junk mail<\/p><p>Some email software will mark All Out as sending junk mail, if this is the case for you then ensure that you add '<a href=\"mailto:noreply@aoapparel.co.uk\">noreply@aoapparel.co.uk<\/a>' as a contact in your email address book.<\/p><p>​<\/p><p>Contact us<\/p><p>If you are still not receiving All Out marketing communications then please get in touch and we will help to resolve the issue for you.<\/p><p>​<\/p><p>You can contact us via <span style=\"text-decoration:underline\">this link<\/span>.<\/p>"
+          }
+        },
+        "adf79284-9eed-4114-beb0-8ed7f10573c0": {
+          "type": "faq",
+          "settings": {
+            "question": "I would like to close my All Out account.",
+            "answer": "<p>We are sorry to hear that you would like to close your All Out account.<\/p><p>​<\/p><p>In order to do so, please get in touch with our support team who can then close the account for you. They will send you an email to confirm that they have done so, once this email has been sent it will be no longer possible for you to log into the account.<\/p><p>​<\/p><p>In order to log in again, you will need to create a brand new account and re-enter all of your credentials.<\/p><p>​<\/p><p>You can get in contact with us via <span style=\"text-decoration:underline\">this link<\/span>.<\/p>"
+          }
+        },
+        "58c1450d-3fe8-44cb-ba3f-b169a96bbb15": {
+          "type": "faq",
+          "settings": {
+            "question": "Can I make changes to my All Out account details?",
+            "answer": "<p>Yes, once you are signed into your account you can change any of your account details. Check below to see what details you can change:<\/p><p>​<\/p><p>'My addresses'<\/p><p>Here you can change your home address details, for a faster checkout on your orders with your delivery address already complete.<\/p><p>​<\/p><p>'My wallet'<\/p><p>Here you can change your primary card details, for a faster checkout with your card details already complete.<\/p><p>​<\/p><p>'My account'<\/p><p>Here you can change details about yourself, this includes your name, date of birth, gender, email and phone number. Please note that your log in email can not be changed.​<\/p>"
+          }
+        },
+        "ee3e4d7a-f149-4364-b77e-052a9359a480": {
+          "type": "faq",
+          "settings": {
+            "question": "I have forgotten my password.",
+            "answer": "<p>If you have forgotten your password please see below:<\/p><p>​<\/p><p>When signing into your account, choose the 'forgotten password' link<\/p><p>You will be prompted to enter your email, where you will then be sent an email<\/p><p>Follow the link on the email to reset your password<\/p><p>​<\/p><p>After this has been completed your password will reset and you can use it to sign into your account.<\/p>"
+          }
+        },
+        "f771e489-e6cd-4f22-a4fe-8899478d55dc": {
+          "type": "faq",
+          "settings": {
+            "question": "I can not sign in to my account.",
+            "answer": "<p>If you are having trouble signing into your account, please look at the following below:<\/p><p>​<\/p><p>Ensure that you are using the same email address and password that you used to register your account<\/p><p>Ensure that there are no errors in spelling<\/p><p>If you have forgotten your password use the 'forgot password' link in order to reset your password, from here you will be prompted to enter your email address and you will receive an email that you can use to change your password<\/p><p>​<\/p><p>If after these steps you still can not access your account, please get in touch with our support team who will do their best to resolve the issue. Please include as much information about the issue as you can.<\/p><p>​<\/p><p>To contact us you can do so via <span style=\"text-decoration:underline\">this link<\/span>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "9ccdc4b3-6363-4007-8c89-65a5b01b72b2",
+        "b649abf1-8411-41d5-8583-c339c85d9f56",
+        "9c5a5c75-8e0e-4d3a-9caf-87466b477a84",
+        "433a8be0-8296-40ca-958b-abdbb8a47616",
+        "2067cb4b-2874-43a1-99a3-04869cec9c8b",
+        "adf79284-9eed-4114-beb0-8ed7f10573c0",
+        "58c1450d-3fe8-44cb-ba3f-b169a96bbb15",
+        "ee3e4d7a-f149-4364-b77e-052a9359a480",
+        "f771e489-e6cd-4f22-a4fe-8899478d55dc"
+      ],
+      "settings": {
+        "faq_title": "FAQs - Technical",
+        "faq_description": "Need help with the technical parts of our site? We're sure that our FAQs can tell you what you would like to know!"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16543453617d3189d4"
+  ]
+}
