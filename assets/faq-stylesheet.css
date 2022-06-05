@@ -85,6 +85,7 @@
   }
 
   .contact-us-button {
+      text-decoration: none;
       position: relative;
       text-align: center;
       width: 350px;
@@ -100,7 +101,7 @@
   }
 
   .contact-us-button:hover {
-      box-shadow: 0 5px 10px 0 #141414 inset, 0 5px 10px 0 #141414,
-                  0 5px 10px 0 #141414 inset, 0 5px 10px 0 #141414;
+      box-shadow: 0 2px 5px 0 #141414 inset, 0 2px 5px 0 #141414,
+                  0 2px 5px 0 #141414 inset, 0 2px 5px 0 #141414;
   }
   
