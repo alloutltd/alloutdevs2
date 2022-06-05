@@ -79,20 +79,27 @@
       margin-bottom: 0;
   }
 
-  a {
-      width: 100%;
-      align-items: center;
-      text-align: center;
-      text-decoration: none;
-      color: #fff;
+  .button-container {
+      left: 50%;
   }
 
-  .contact {
-    margin: 20px auto;
-    padding: 15px 32px;
-    border-radius: 10px;
-    background-color: #141414;
-    color: #fff;
-    border: 1px solid #141414;
-    transition: ease-in 0.3s cyan;
+  .button {
+      position: relative;
+      text-align: center;
+      width: 250px;
+      padding: 40px;
+      font-size: 14px;
+      color: #141414;
+      font-weight: 400;
+      border: 2px solid #141414;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      border-radius: 100px;
+      transition: 1s;
   }
+
+  .button:hover {
+      box-shadow: 0 5px 50px 0 #141414 inset, 0 5px 50px 0 #141414,
+                  0 5px 50px 0 #141414 inset, 0 5px 50px 0 #141414;
+  }
+  
