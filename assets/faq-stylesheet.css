@@ -81,20 +81,21 @@
 
   .button-container {
       left: 50%;
+      margin: 30px auto;
   }
 
   .contact-us-button {
       position: relative;
       text-align: center;
       width: 250px;
-      padding: 40px;
+      padding: 25px;
       font-size: 14px;
       color: #141414;
-      font-weight: 400;
+      font-weight: bold;
       border: 2px solid #141414;
       text-transform: uppercase;
-      letter-spacing: 5px;
-      border-radius: 100px;
+      letter-spacing: 2px;
+      border-radius: 50px;
       transition: 1s;
   }
 
