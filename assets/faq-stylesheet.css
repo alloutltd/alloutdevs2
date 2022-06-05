@@ -84,26 +84,24 @@
       margin: 30px auto;
   }
 
-  .contact-us-button {
-      text-decoration: none;
-      position: relative;
-      text-align: center;
-      width: 350px;
-      padding: 20px;
-      font-size: 14px;
-      color: #141414;
-      font-weight: bold;
-      border: 2px solid #141414;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      border-radius: 50px;
-      transition: transform 300ms ease-in-out;
+  .contact-us-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+      background-color: #fff;
+
       transform: scaleX(0);
       transform-origin: left;
   }
 
-  .contact-us-button:hover {
+  .contact-us-button:hover::before,
+  .contact-us-button:focus::before {
       transform: scaleX(1);
-      color: #fff;
   }
+
+  
   
