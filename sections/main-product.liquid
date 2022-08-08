@@ -9,6 +9,8 @@
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
+{%- render 'flits_capture_code' with 'component',template:'comp_wishlistCollectionButton' product:product -%}
+
   
   {%- style -%}
     .section-{{ section.id }}-padding {
@@ -292,7 +294,6 @@
                 </button>
               </quantity-input>
             </div>
-{%- render 'flits_capture_code' with 'component',template:'comp_wishlistCollectionButton' product:product -%}
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden quick-add-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
