@@ -268,6 +268,7 @@
     {%- endif -%}
   
 	{{ shop.metafields.loox["global_html_body"] }}
+	{%- render 'flits_capture_code' with 'load_snippet',template:'flits_snippet' -%}
 </body>
 </html>
 {% endcomment %}
@@ -586,5 +587,6 @@
 {% endif %}
 
 	{{ shop.metafields.loox["global_html_body"] }}
+	{%- render 'flits_capture_code' with 'load_snippet',template:'flits_snippet' -%}
 </body>
 </html>
