@@ -431,7 +431,8 @@
       "cant_add_more_quantity": "You have reached the maximum limit. You cannot add any more items.",
       "cart_updated": "Some items are no longer available. Your cart has been updated.",
       "getting_customer_details": "Getting\/Syncing Customer Details",
-      "something_went_wrong": "Something went wrong. Please try again."
+      "something_went_wrong": "Something went wrong. Please try again.",
+      "greeting": "Hello"
     },
     "navigation": {
       "profile": "My Profile",
@@ -446,7 +447,8 @@
       "from_admin": "From Store Owner",
       "refer_friend": "Refer Friend",
       "change_password": "Change Password",
-      "log_out": "Log Out"
+      "log_out": "Log Out",
+      "how_to_manage_credit": "How To Manage Credits"
     },
     "profile_page": {
       "first_name": "First Name",
@@ -533,7 +535,10 @@
       "shipping_address": "Shipping Address",
       "billing_address": "Billing Address",
       "cancel_at": "Cancelled at",
-      "fulfillment_status": "Fulfillment Status"
+      "fulfillment_status": "Fulfillment Status",
+      "order_date": "Date",
+      "cost_breakup": "Cost Breakup",
+      "payment_type": "Payment Type"
     },
     "order_contact_us": {
       "contact_us_button": "Contact Us",
@@ -723,7 +728,15 @@
       "customer_deleted": "Customer Deleted",
       "credit": "Credit",
       "time": "Referred Since",
-      "you_are_referred_by": "Referred by"
+      "you_are_referred_by": "Referred by",
+      "refer_program_how_it_work_title": "How it works",
+      "refer_program_how_it_work_step_1": "Share your referral link",
+      "refer_program_how_it_work_step_2": "When your friend signs-up",
+      "refer_program_how_it_work_step_3": "You get rewarded",
+      "facebook_share": "Share",
+      "whatsapp_share": "Share",
+      "share": "Share",
+      "earned_credit": "Earned Credit"
     },
     "from_admin_page": {
       "header_line_html": "From Store Owner"
@@ -747,7 +760,8 @@
       "sold_out": "Sold Out",
       "previous": "Previous",
       "next": "Next",
-      "product_unavailable_text": "Currently Unavailable"
+      "product_unavailable_text": "Currently Unavailable",
+      "back": "Back"
     },
     "months": {
       "january": "January",
