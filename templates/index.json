@@ -128,7 +128,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Padlock.png",
             "title": "Safe and Secure Checkout",
-            "text": "<p>Have confidence that your details are safe with us,<br\/>no details are shared with 3rd parties.<\/p>",
+            "text": "<p>Have confidence that your details are safe with us, no details are shared with 3rd parties.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -138,7 +138,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Customer_Service_2.png",
             "title": "Outstanding Customer Service",
-            "text": "<p>Receive excellent and fast customer service 7 days a week, <br\/>from the All Out customer care team.<\/p>",
+            "text": "<p>Receive excellent and fast customer service 7 days a week,  from the All Out customer care team.<\/p>",
             "link_label": "",
             "link": ""
           }
