@@ -128,7 +128,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Padlock.png",
             "title": "Safe and Secure Checkout",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Have confidence that your details are safe with us,<br\/>no details are shared with 3rd parties.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -137,8 +137,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Customer_Service_2.png",
-            "title": "Excellent Customer Service",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Outstanding Customer Service",
+            "text": "<p>Receive excellent and fast customer service 7 days a week, <br\/>from the All Out customer care team.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -148,7 +148,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Package.png",
             "title": "Personalised Packages",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Receive packages custom tailored to you, based on your purchase and interaction history.<\/p>",
             "link_label": "",
             "link": ""
           }
