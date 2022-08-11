@@ -49,3 +49,9 @@
    max-width: 85rem;
   }
 }
+
+@media screen and (min-width: 750px) {
+  .contact .field {
+    margin-bottom: 5rem;
+  }
+}
