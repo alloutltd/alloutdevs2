@@ -38,14 +38,17 @@
       {%- endif -%}
       <div class="contact__fields">
         <div class="field">
+          <h3 class="label">First Name*</h3>
           <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" required="true" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
-          <label class="field__label" for="ContactForm-name">First Name *</label>
+          <!--<label class="field__label" for="ContactForm-name">First Name *</label>-->
         </div>
         <div class="field">
+          <h3 class="label">Last Name*</h3>
           <input type="text" id="ContactForm-last_name" class="field__input" autocomplete="name" name="Last Name" required="true" value="{% if form.last_name %}{{ form.last_name }}{% elsif customer %}{{ customer.last_name }}{% endif %}" placeholder="Last Name">
-          <label class="field__label" for="ContactForm-last_name">Last Name *</label>
+          <!--<label class="field__label" for="ContactForm-last_name">Last Name *</label>-->
         </div>
         <div class="field field--with-error">
+          <h3 class="label">Email*</h3>
           <input
             autocomplete="email"
             type="email"
@@ -62,7 +65,7 @@
             {% endif %}
             placeholder="{{ 'templates.contact.form.email' | t }}"
           >
-          <label class="field__label" for="ContactForm-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>
+          <!--<label class="field__label" for="ContactForm-email">{{ 'templates.contact.form.email' | t }} <span aria-hidden="true">*</span></label>-->
           {%- if form.errors contains 'email' -%}
             <small class="contact__field-error" id="ContactForm-email-error">
               <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
@@ -71,6 +74,7 @@
           {%- endif -%}
         </div>
         <div class="field">
+          <h3 class="label">Issue Type*</h3>
           <select  name="contact[issue]" id="issue" style="padding-top: 15px;" class="field__input" required="true">
             <option value="default" selected>Select one *</option>
             <option value="delivery">Delivery</option>
@@ -79,7 +83,7 @@
             <option value="Payment and Promotions">Payment & Promotions</option>
             <option value="other">Other</option>
           </select>  
-          <label class="field__label" for="issue">Issue Type</label>
+          <!--<label class="field__label" for="issue">Issue Type</label>-->
         </div>
       </div>
       <!--<div class="field">
@@ -87,6 +91,7 @@
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>-->
       <div class="field">
+        <h3 class="label">Issue Description*</h3>
         <textarea
           rows="10"
           id="ContactForm-body"
@@ -97,7 +102,7 @@
         >
           {{- form.body -}}
         </textarea>
-        <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }} <span> *</span></label>
+        <!--<label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }} <span> *</span></label>-->
       </div>
       <div class="contact__button">
         <button type="submit" class="button">
