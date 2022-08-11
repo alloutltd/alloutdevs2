@@ -38,8 +38,8 @@
       {%- endif -%}
       <div class="contact__fields">
         <div class="field">
-          <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
-          <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+          <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" aria-required="true" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
+          <label class="field__label" for="ContactForm-name">First Name</label>
         </div>
         <div class="field field--with-error">
           <input
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="field">
-        <input type="text" id="ContactForm-last_name" class="field__input" autocomplete="name" name="Last Name" value="{% if form.last_name %}{{ form.last_name }}{% elsif customer %}{{ customer.last_name }}{% endif %}" placeholder="Last Name">
+        <input type="text" id="ContactForm-last_name" class="field__input" autocomplete="name" name="Last Name" aria-required="true" value="{% if form.last_name %}{{ form.last_name }}{% elsif customer %}{{ customer.last_name }}{% endif %}" placeholder="Last Name">
         <label class="field__label" for="ContactForm-last_name">Last Name</label>
       </div>
       <div class="field">
@@ -76,7 +76,7 @@
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
       <div class="field">
-        <select  name="contact[issue]" id="issue" style="padding-top: 15px;" class="field__input" required="true">
+        <select  name="contact[issue]" id="issue" style="padding-top: 15px;" class="field__input" aria-required="true">
           <option value="default" selected>Select one</option>
           <option value="delivery">Delivery</option>
           <option value="my order">My Order</option>
@@ -93,6 +93,7 @@
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
           placeholder="{{ 'templates.contact.form.comment' | t }}"
+          aria-required="true"
         >
           {{- form.body -}}
         </textarea>
