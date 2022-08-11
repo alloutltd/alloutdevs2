@@ -37,18 +37,18 @@
         </ul>
       {%- endif -%}
       <div class="contact__fields">
+        <h3 class="label">First Name*</h3>
         <div class="field">
-          <h3 class="label">First Name*</h3>
           <input class="field__input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" required="true" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
           <!--<label class="field__label" for="ContactForm-name">First Name *</label>-->
         </div>
+        <h3 class="label">Last Name*</h3>
         <div class="field">
-          <h3 class="label">Last Name*</h3>
           <input type="text" id="ContactForm-last_name" class="field__input" autocomplete="name" name="Last Name" required="true" value="{% if form.last_name %}{{ form.last_name }}{% elsif customer %}{{ customer.last_name }}{% endif %}" placeholder="Last Name">
           <!--<label class="field__label" for="ContactForm-last_name">Last Name *</label>-->
         </div>
+        <h3 class="label">Email*</h3>
         <div class="field field--with-error">
-          <h3 class="label">Email*</h3>
           <input
             autocomplete="email"
             type="email"
@@ -73,8 +73,8 @@
             </small>
           {%- endif -%}
         </div>
+        <h3 class="label">Issue Type*</h3>
         <div class="field">
-          <h3 class="label">Issue Type*</h3>
           <select  name="contact[issue]" id="issue" style="padding-top: 15px;" class="field__input" required="true">
             <option value="default" selected>Select one *</option>
             <option value="delivery">Delivery</option>
@@ -90,8 +90,8 @@
         <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>-->
+      <h3 class="label">Issue Description*</h3>
       <div class="field">
-        <h3 class="label">Issue Description*</h3>
         <textarea
           rows="10"
           id="ContactForm-body"
