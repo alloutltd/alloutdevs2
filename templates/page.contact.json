@@ -1,31 +1,39 @@
 {
   "sections": {
-    "16581585249c39c5b9": {
-      "type": "rich-text",
+    "16602316578ff81d36": {
+      "type": "image-banner",
       "blocks": {
-        "1658158524d2109aab-0": {
+        "1660231657d930349b-0": {
           "type": "heading",
           "settings": {
             "heading": "Contact Us",
             "heading_size": "h1"
           }
         },
-        "1658158524d2109aab-1": {
+        "1660231657d930349b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>If our FAQs page could not help you solve your issue, we have a team on hand who will be happy to help.  Please fill out the form below and we will get back to you as soon as possible with a solution.  If you have not already looked at our FAQs page please do so before contacting us first. <\/p>"
+            "text": "If our FAQs page could not help you solve your issue, we have a team on hand who will be happy to help.  Please fill out the form below and we will get back to you as soon as possible with a solution.  If you have not already looked at our FAQs page please do so before contacting us first.",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "1658158524d2109aab-0",
-        "1658158524d2109aab-1"
+        "1660231657d930349b-0",
+        "1660231657d930349b-1"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image": "shopify:\/\/shop_images\/urban-mens-fashion-on-young-adult.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
       }
     },
     "main": {
@@ -48,7 +56,7 @@
     }
   },
   "order": [
-    "16581585249c39c5b9",
+    "16602316578ff81d36",
     "main",
     "form"
   ]
