@@ -43,3 +43,7 @@
 .grecaptcha-badge {
   visibility: hidden;
 }
+
+.contact page-width page-width--narrow section-template--15950900068605__form-padding {
+  max-width: 85rem;
+}
