@@ -75,7 +75,7 @@
         <select  name="contact[issue]" id="issue" style="padding-top: 15px;" class="field__input" required="true">
           <option value="default" selected>Select one</option>
           <option value="delivery">Delivery</option>
-          <option value="my order">My order</option>
+          <option value="my order">My Order</option>
           <option value="technical">Technical</option>
           <option value="Payment and Promotions">Payment & Promotions</option>
           <option value="other">Other</option>
@@ -88,7 +88,7 @@
           id="ContactForm-body"
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
-          placeholder="{{ 'templates.contact.form.comment' | t }}"
+          placeholder="Describe your issue here..."
         >
           {{- form.body -}}
         </textarea>
