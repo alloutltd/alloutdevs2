@@ -5852,6 +5852,6 @@ a:hover {
   opacity: 1 !important;
 }
 
-.field__input .field__label {
-  opacity: 0;
+#footer-label {
+  opacity: 0 !important;
 }
