@@ -5851,3 +5851,7 @@ a:hover {
 .field__input::placeholder {
   opacity: 1 !important;
 }
+
+.field__input .field__label {
+  opacity: 0;
+}
