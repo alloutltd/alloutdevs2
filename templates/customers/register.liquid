@@ -38,7 +38,8 @@
     <div class="sub-heading">
       <p>Sign up to All Out and have the ability to manage your account, track your orders, create a wishlist and earn credits to get money off your orders.</p>
     </div>
-    <div class="field">      
+    <div class="field">     
+      <h3 class="label">First Name*</h3> 
       <input
         type="text"
         name="customer[first_name]"
@@ -46,13 +47,14 @@
         required="true"
         {% if form.first_name %}value="{{ form.first_name }}"{% endif %}
         autocomplete="given-name"
-        placeholder="{{ 'customer.register.first_name' | t }}"
+        placeholder="Enter your first name here..."
       >
-      <label for="RegisterForm-FirstName">
+      <!--<label for="RegisterForm-FirstName">
         {{ 'customer.register.first_name' | t }}
-      </label>
+      </label>-->
     </div>
     <div class="field">
+      <h3 class="label">Last Name*</h3>
       <input
         type="text"
         name="customer[last_name]"
@@ -60,25 +62,27 @@
         required="true"
         {% if form.last_name %}value="{{ form.last_name }}"{% endif %}
         autocomplete="family-name"
-        placeholder="{{ 'customer.register.last_name' | t }}"
+        placeholder="Enter your last name here..."
       >
-      <label for="RegisterForm-LastName">
+      <!--<label for="RegisterForm-LastName">
         {{ 'customer.register.last_name' | t }}
-      </label>
+      </label>-->
     </div>
     <div id="gender-wrapper" class="clearfix large_form">
-      <label for="gender" class="label">Gender</label> 
+      <label for="gender" class="label">Gender*</label> 
           <select name="customer[gender]" id="gender" class="text" required="true" placeholder="Select a gender">
+            <option value="default">Select a gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="other">Other</option>
           </select>
       </div>
     <div id="birthday-wrapper" class="clearfix large_form">
-      <label for="birthday" class="label">Birthday</label>
+      <label for="birthday" class="label">Birthday*</label>
       <input type="date" value="" name="customer[note][birthday]" id="birthday" class="text" size="30" required="true"/>
       </div>
-    <div class="field">      
+    <div class="field">    
+      <h3 class="label">Email*</h3>
       <input
         type="email"
         name="customer[email]"
@@ -92,11 +96,11 @@
           aria-invalid="true"
           aria-describedby="RegisterForm-email-error"
         {% endif %}
-        placeholder="{{ 'customer.register.email' | t }}"
+        placeholder="Enter your email here..."
       >
-      <label for="RegisterForm-email">
+      <!--<label for="RegisterForm-email">
         {{ 'customer.register.email' | t }}
-      </label>
+      </label>-->
     </div>
     {%- if form.errors contains 'email' -%}
       <span id="RegisterForm-email-error" class="form__message">
@@ -107,6 +111,7 @@
       </span>
     {%- endif -%}
     <div class="field">     
+      <h3 class="label">Password*</h3>
       <input
         type="password"
         name="customer[password]"
@@ -116,11 +121,11 @@
           aria-invalid="true"
           aria-describedby="RegisterForm-password-error"
         {% endif %}
-        placeholder="{{ 'customer.register.password' | t }}"
+        placeholder="Craete a password..."
       >
-      <label for="RegisterForm-password">
+      <!--<label for="RegisterForm-password">
         {{ 'customer.register.password' | t }}
-      </label>
+      </label>-->
     </div>
     {%- if form.errors contains 'password' -%}
       <span id="RegisterForm-password-error" class="form__message">
