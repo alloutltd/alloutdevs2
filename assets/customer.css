@@ -752,11 +752,13 @@ h1 {
 
 .sub-heading p {
   font-family: Montserrat;
+  font-size: 13px;
 }
 
 .field__container h3 {
   margin-bottom: 3px;
   text-align: left;
+  font-size: 14px;
 }
 
 input {
@@ -769,3 +771,4 @@ input {
 #birthday__container {
   margin-top: 30px;
 }
+
