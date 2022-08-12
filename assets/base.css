@@ -5844,3 +5844,10 @@ a:hover {
     width: 100%;
  }
 }
+
+.field__input:focus {
+  padding: 1.5rem !important;
+}
+.field__input::placeholder {
+  opacity: 1 !important;
+}
