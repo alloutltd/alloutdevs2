@@ -35,11 +35,15 @@
         {%- endfor -%}
       </ul>
     {%- endif -%}
+    <div class="sub-heading">
+      <p>Sign up to All Out and have the ability to manage your account, track your orders, create a wishlist and earn credits to get money off your orders.</p>
+    </div>
     <div class="field">      
       <input
         type="text"
         name="customer[first_name]"
         id="RegisterForm-FirstName"
+        required="true"
         {% if form.first_name %}value="{{ form.first_name }}"{% endif %}
         autocomplete="given-name"
         placeholder="{{ 'customer.register.first_name' | t }}"
@@ -53,6 +57,7 @@
         type="text"
         name="customer[last_name]"
         id="RegisterForm-LastName"
+        required="true"
         {% if form.last_name %}value="{{ form.last_name }}"{% endif %}
         autocomplete="family-name"
         placeholder="{{ 'customer.register.last_name' | t }}"
@@ -61,9 +66,17 @@
         {{ 'customer.register.last_name' | t }}
       </label>
     </div>
+    <div id="gender-wrapper" class="clearfix large_form">
+      <label for="gender" class="label">Gender</label> 
+          <select name="customer[gender]" id="gender" class="text" size="30" required="true" placeholder="Select a gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+      </div>
     <div id="birthday-wrapper" class="clearfix large_form">
       <label for="birthday" class="label">Birthday</label>
-      <input type="date" value="" name="customer[note][birthday]" id="birthday" class="text" size="30" />
+      <input type="date" value="" name="customer[note][birthday]" id="birthday" class="text" size="30" required="true"/>
       </div>
     <div class="field">      
       <input
