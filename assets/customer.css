@@ -762,3 +762,10 @@ h1 {
 input {
   padding: 0 0 0 10px;
 }
+
+#gender__container {
+  margin-top: 30px;
+}
+#birthday__container {
+  margin-top: 30px;
+}
