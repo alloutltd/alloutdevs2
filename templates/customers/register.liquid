@@ -147,6 +147,11 @@
       {{ form.errors.translated_fields['password'] | capitalize }} {{ form.errors.messages['password'] }}.
     </span>
   {%- endif -%}
+  <div>
+    <p>By creating an account, you are opting in to receive email marketing from All Out</p>
+    <p>By creating an account, you are agreeing to our Terms and Conditions</p>
+    <p>For full details on how we use your personal information, please visit our <a>Privacy Policy</a>page</p>
+  </div>
   <button>
     {{ 'customer.register.submit' | t }}
   </button>
