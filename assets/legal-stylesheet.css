@@ -24,6 +24,6 @@ a {
      /* Let's remove the bullet points */
      list-style-type: none;
      /* display the list flex and align the items centered */
-     display: flex;
+     display: contents;
      align-items:center;
    }
