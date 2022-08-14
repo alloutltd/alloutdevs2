@@ -33,11 +33,11 @@ header {
 
 .nav-links li a {
     transition: all 0.3s ease 0s;
-    text-decoration: underline 1px #fff;
 }
 .nav-links li a:hover {
     color: grey;
-    text-decoration: underline 1px grey;
+    text-decoration: underline;
+    text-decoration-color: grey;
 }
 
 button {
