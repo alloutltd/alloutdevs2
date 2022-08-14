@@ -103,5 +103,78 @@
       transform: scaleX(1);
   }
 
-  
+  #shopify-section-template--16352758038781__16603859214b6fd014 {
+    display: flex;
+    justify-content: center;
+}
+
+.width-container {
+    max-width: 90%;
+    width: 90%;
+}
+
+li, a, button {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    padding-bottom: 15px;
+    font-family: 'Montserrat';
+}
+.nav-links li a:hover {
+    border-bottom: 3px solid black;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.blankspace p {
+    color: #fff;
+    cursor: pointer;
+}
+
+.info-container {
+    border-top: 2px solid #000;
+}
+
+.info {
+    font-size: 14px;
+}
+
+nav ul li a.active {
+    border-bottom: 3px solid #000;
+}
   
