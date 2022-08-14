@@ -14,6 +14,7 @@
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    border-right: 1px solid #fff;
 }
 .nav a:hover {
     background: #fff;
