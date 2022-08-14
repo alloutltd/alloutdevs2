@@ -78,7 +78,7 @@ navbar.forEach(element => {
     })
 })
 
-if (tandc.className.contains("active")) {
+if (tandc.classList.contains("active")) {
     document.getElementById("tandc-container").style.display="block";
 } else {
     document.getElementById("tandc-container").style.display="none";
