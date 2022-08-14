@@ -69,6 +69,6 @@ button:hover {
     font-size: 14px;
 }
 
-.legal-menu-item--active {
+.legal-menu-item active {
     border-bottom: 3px solid #000;
 }
