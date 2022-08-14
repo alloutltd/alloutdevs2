@@ -1,29 +1,55 @@
-.legal-bar-menu {
-    width: 100%;
+@media (min-width: 992px) {
+ .legal-nav-control-bar {
+    margin-top: 0;
+ }
 }
-/* We don't want any links to be underlined. Let's remove that globally */
-a {
-    text-decoration: none;
-  }
-  
-  .navbar {
-    background-color: #333333;
+.faq-nav-control-bar {
+    display: -ms-flexbox;
     display: flex;
-    /* let's align the items so everything is nice and centered */
-    align-items: center;
-  }
-  
-  /* We want all links in the navbar to be #e7e7e7 */
-  .navbar a {
-    color: #e7e7e7;
-  }
-  .navbar ul {
-    /* Let's reset the margin and padding of the list so it's is flush. */
-     margin: 0;
-     padding: 0;
-     /* Let's remove the bullet points */
-     list-style-type: none;
-     /* display the list flex and align the items centered */
-     display: contents;
-     align-items:center;
-   }
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-top: 0.0625rem solid #e8e8e8;
+    border-bottom: 0.0625rem solid #e8e8e8;
+    background: linear-gradient(0deg,#fff,#fafafa);
+    width: 100%;
+    z-index: 91;
+    position: static;
+    top: auto;
+    margin-top: 1.125rem;
+}
+@media (min-width: 992px) {
+ .faq-nav-control-bar-inner {
+    z-index: 1;
+    opacity: 1;
+    position: static;
+    border-left: 0 solid #e8e8e8;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    background-color: transparent;
+    transform: none;
+    transition: none;
+    height: auto;
+    max-width: 50rem;
+ }
+}
+
+.faq-nav-control-bar-inner .faq-nav-control-bar-link {
+    font-size: 0.6rem;
+}
+@media (min-width: 992px) {
+.faq-nav-control-bar-link.is-active {
+    background-color: #f7f8f9;
+    border-bottom: 0.125rem solid #000;
+}
+}
+@media (min-width: 992px) {
+.faq-nav-control-bar-link:first-of-type {
+    border-left: 0.0625rem solid #e8e8e8;
+}
+.faq-nav-control-bar-link:hover {
+    text-decoration: none;
+}
+}
