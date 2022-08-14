@@ -5,7 +5,7 @@
 }) */
 
 
-document.querySelectorAll('.legal-menu-item--active').forEach(a => {
+/*document.querySelectorAll('.legal-menu-item--active').forEach(a => {
     a.addEventListener('click', () => {
         const container = document.getElementById('tandc-container');
         const container2 = document.getElementById('refund-container');
@@ -63,4 +63,4 @@ document.querySelectorAll('.legal-menu-item-3').forEach(a => {
             container.style.display = "none";
         }
     })
-})
+})*/
