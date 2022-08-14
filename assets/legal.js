@@ -77,25 +77,21 @@ navbar.forEach(element => {
         var privacy = document.getElementById("privacylink");
 
         navbar.forEach(nav=>nav.classList.remove("active"))
-        console.log("class1" + tandc.classList);
 
         this.classList.add("active");
-        console.log("class2" + tandc.classList);
 
         if (tandc.classList.contains("active")) {
             document.getElementById("tandc-container").style.display="block";
-        } else {
-            document.getElementById("tandc-container").style.display="none";
-        }
-        if (refund.classList.contains("active")) {
-            document.getElementById("refund-container").style.display="block";
-        } else {
             document.getElementById("refund-container").style.display="none";
-        }
-        if (privacy.classList.contains("active")) {
-            document.getElementById("privacy-container").style.display="block";
-        } else {
             document.getElementById("privacy-container").style.display="none";
+        } else if (refund.classList.contains("active")){
+            document.getElementById("tandc-container").style.display="none";
+            document.getElementById("refund-container").style.display="block";
+            document.getElementById("privacy-container").style.display="none";
+        } else if (privacy.classList.contains("active")) {
+            document.getElementById("tandc-container").style.display="none";
+            document.getElementById("refund-container").style.display="none";
+            document.getElementById("privacy-container").style.display="block";
         }
     })
 })
