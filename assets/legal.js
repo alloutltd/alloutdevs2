@@ -78,7 +78,7 @@ navbar.forEach(element => {
     })
 })
 
-console.log(tandc.classList);
+console.log("class" + tandc.classList);
 
 if (tandc.classList.contains("active")) {
     document.getElementById("tandc-container").style.display="block";
