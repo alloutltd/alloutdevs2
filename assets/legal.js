@@ -66,7 +66,7 @@ document.querySelectorAll('.legal-menu-item-3').forEach(a => {
 })*/
 
 function onload() {
-    document.getElementById("tandclink").className.add("active");
+    document.getElementById("tandclink").classList.add("active");
  }
  window.onload = onload;
 
