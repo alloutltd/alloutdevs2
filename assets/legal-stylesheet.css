@@ -58,3 +58,9 @@ button:hover {
 .legal-menu-item--active {
     color: red;
 }
+.legal-menu-item-2--active {
+    color: blue;
+}
+.legal-menu-item-3--active {
+    color: blueviolet;
+}
