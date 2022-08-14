@@ -4,9 +4,9 @@
     })
 }) */
 
-document.getElementById('#tandclink').forEach(a => {
+document.getElementById('tandclink').forEach(a => {
     a.addEventListener('click', () => {
-        const container = document.getElementById('#tandc-container');
+        const container = document.getElementById('tandc-container');
         a.classList.toggle('legal-menu-item--active');
 
         if (a.classList.contains('legal-menu-item--active')) {
