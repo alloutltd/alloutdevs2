@@ -65,5 +65,5 @@ document.querySelectorAll('.legal-menu-item-3').forEach(a => {
     })
 })*/
 
-navbar = document.querySelector(".navlinks").querySelectorAll("a");
+navbar = document.querySelector("nav").querySelectorAll("a");
 console.log(navbar);
