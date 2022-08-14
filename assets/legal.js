@@ -19,7 +19,7 @@ document.querySelectorAll('.legal-menu-item').forEach(a => {
 document.querySelectorAll('.legal-menu-item-2').forEach(a => {
     a.addEventListener('click', () => {
         const container2 = document.getElementById('refund-container');
-        a.classList.toggle('legal-menu-item--active');
+        a.classList.toggle('legal-menu-item-2--active');
 
         if (a.classList.contains('legal-menu-item-2--active')) {
             container2.style.display = "block";
@@ -31,7 +31,7 @@ document.querySelectorAll('.legal-menu-item-2').forEach(a => {
 document.querySelectorAll('.legal-menu-item-3').forEach(a => {
     a.addEventListener('click', () => {
         const container3 = document.getElementById('privacy-container');
-        a.classList.toggle('legal-menu-item--active');
+        a.classList.toggle('legal-menu-item-3--active');
 
         if (a.classList.contains('legal-menu-item-3--active')) {
             container3.style.display = "block";
