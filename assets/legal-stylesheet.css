@@ -64,3 +64,7 @@ button:hover {
 .info-container {
     border-top: 2px solid #000;
 }
+
+.info {
+    font-size: 14px;
+}
