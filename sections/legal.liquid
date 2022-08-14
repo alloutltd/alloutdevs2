@@ -1,14 +1,5 @@
 <link rel="stylesheet" href="{{ 'legal-stylesheet.css' | asset_url }}" media="print" onload="this.media='all'">
-
-<script>
-document.getElementById("tandclink").onclick = function() {
-    tandcpara()
-};
-
-function tandcpara() {
-    document.getElementById("tandc-container").stle.display = "none";
-}
-</script>
+<script src="{{ 'legal.js' | asset_url }}" defer="defer"></script>
 
 <div class="width-container">
     <header>

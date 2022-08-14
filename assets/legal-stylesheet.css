@@ -54,3 +54,7 @@ button:hover {
     color: #000;
     border: 1px solid #000;
 }
+
+#tandclink--active {
+    color: red;
+}
