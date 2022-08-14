@@ -56,8 +56,8 @@ button:hover {
     border: 1px solid #000;
 }
 
-.blankspace {
-    display: none;
+.blankspace p {
+    color: #fff;
 }
 
 .info-container {
