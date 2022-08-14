@@ -34,10 +34,10 @@ header {
 .nav-links li a {
     transition: all 0.3s ease 0s;
     padding-bottom: 15px;
+    font-family: 'Montserrat';
 }
 .nav-links li a:hover {
     border-bottom: 3px solid black;
-    border-radius: 50px;
 }
 
 button {
@@ -48,6 +48,7 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     color: #fff;
+    font-family: 'Montserrat';
 }
 button:hover {
     background-color: #fff;
