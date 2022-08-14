@@ -1,7 +1,7 @@
 li, a, button {
     font-weight: bold;
     font-size: 16px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
@@ -10,4 +10,34 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #000;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s
+}
+button:hover {
+    background-color: #fff;
+    border: 1px solid #000;
 }
