@@ -1,11 +1,21 @@
 <link rel="stylesheet" href="{{ 'legal-stylesheet.css' | asset_url }}" media="print" onload="this.media='all'">
 
+<script>
+document.getElementById("tandclink").onclick = function() {
+    tandcpara()
+};
+
+function tandcpara() {
+    document.getElementById("tandc-container").collapse;
+}
+</script>
+
 <div class="width-container">
     <header>
         <p class="header-dot">.</p>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">Terms and Conditions</a></li>
+                <li><a id="tandclink" href="#">Terms and Conditions</a></li>
                 <li><a href="#">Returns Policy</a></li>
                 <li><a href="#">Privacy Policy</a></li>
             </ul>
