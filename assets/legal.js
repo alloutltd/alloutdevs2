@@ -65,6 +65,8 @@ document.querySelectorAll('.legal-menu-item-3').forEach(a => {
     })
 })*/
 
+var tandc = document.getElementById("tandclink");
+
 navbar = document.querySelector(".nav-links").querySelectorAll("a");
 console.log(navbar);
 
@@ -76,7 +78,7 @@ navbar.forEach(element => {
     })
 })
 
-if (document.getElementById("tandclink").className.contains("active")) {
+if (tandc.className.contains("active")) {
     document.getElementById("tandc-container").style.display="block";
 } else {
     document.getElementById("tandc-container").style.display="none";
