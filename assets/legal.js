@@ -75,3 +75,9 @@ navbar.forEach(element => {
         this.classList.add("active");
     })
 })
+
+if (document.getElementById("tandclink").className.contains("active")) {
+    document.getElementById("tandc-container").style.display="block";
+} else {
+    document.getElementById("tandc-container").style.display="none";
+}
