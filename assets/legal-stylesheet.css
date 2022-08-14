@@ -55,6 +55,6 @@ button:hover {
     border: 1px solid #000;
 }
 
-#tandclink--active {
+.legal-menu-item--active {
     color: red;
 }
