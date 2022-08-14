@@ -1,3 +1,7 @@
+.width-container {
+    max-width: 90rem;
+}
+
 li, a, button {
     font-weight: bold;
     font-size: 16px;
@@ -35,7 +39,8 @@ button {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s
+    transition: all 0.3s ease 0s;
+    color: #fff;
 }
 button:hover {
     background-color: #fff;
