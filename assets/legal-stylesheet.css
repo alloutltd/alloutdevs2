@@ -55,12 +55,31 @@ button:hover {
     border: 1px solid #000;
 }
 
+.legal-menu-item {
+    text-decoration: none;
+}
+.legal-menu-item-2 {
+    text-decoration: none;
+}
+.legal-menu-item-3 {
+    text-decoration: none;
+}
+
 .legal-menu-item--active {
-    color: red;
+    text-decoration: underline;
+    color: grey;
+    text-decoration-color: grey;
+    text-decoration-thickness: 2px;
 }
 .legal-menu-item-2--active {
-    color: blue;
+    text-decoration: underline;
+    color: grey;
+    text-decoration-color: grey;
+    text-decoration-thickness: 2px;
 }
 .legal-menu-item-3--active {
-    color: blueviolet;
+    text-decoration: underline;
+    color: grey;
+    text-decoration-color: grey;
+    text-decoration-thickness: 2px;
 }
