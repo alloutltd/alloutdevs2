@@ -73,8 +73,8 @@ navbar.forEach(element => {
     element.addEventListener("click", function(){
 
         var tandc = document.getElementById("tandclink");
-        var refund = document.getElementById("tandclink");
-        var privacy = document.getElementById("tandclink");
+        var refund = document.getElementById("refundlink");
+        var privacy = document.getElementById("privacylink");
 
         navbar.forEach(nav=>nav.classList.remove("active"))
         console.log("class1" + tandc.classList);
