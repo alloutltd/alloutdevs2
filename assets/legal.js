@@ -73,8 +73,10 @@ console.log(navbar);
 navbar.forEach(element => {
     element.addEventListener("click", function(){
         navbar.forEach(nav=>nav.classList.remove("active"))
+        console.log("class1" + tandc.classList);
 
         this.classList.add("active");
+        console.log("class2" + tandc.classList);
     })
 })
 
