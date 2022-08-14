@@ -65,25 +65,25 @@ document.querySelectorAll('.legal-menu-item-3').forEach(a => {
     })
 })*/
 
-var tandc = document.getElementById("tandclink");
 
 navbar = document.querySelector(".nav-links").querySelectorAll("a");
 console.log(navbar);
 
 navbar.forEach(element => {
     element.addEventListener("click", function(){
+
+        var tandc = document.getElementById("tandclink");
+
         navbar.forEach(nav=>nav.classList.remove("active"))
         console.log("class1" + tandc.classList);
 
         this.classList.add("active");
         console.log("class2" + tandc.classList);
+
+        if (tandc.classList.contains("active")) {
+            document.getElementById("tandc-container").style.display="block";
+        } else {
+            document.getElementById("tandc-container").style.display="none";
+        }
     })
 })
-
-console.log("class" + tandc.classList);
-
-if (tandc.classList.contains("active")) {
-    document.getElementById("tandc-container").style.display="block";
-} else {
-    document.getElementById("tandc-container").style.display="none";
-}
