@@ -12,8 +12,8 @@ document.querySelectorAll('.legal-menu-item--active').forEach(a => {
         const container3 = document.getElementById('privacy-container');
         a.classList.toggle('legal-menu-item');
 
-        getElementById('refundlink').className='.legal-menu-item-2';
-        getElementById('privacylink').className='.legal-menu-item-3';
+        getElementById('refundlink').className='legal-menu-item-2';
+        getElementById('privacylink').className='legal-menu-item-3';
 
 
         if (a.classList.contains('legal-menu-item--active')) {
@@ -32,8 +32,8 @@ document.querySelectorAll('.legal-menu-item-2').forEach(a => {
         const container3 = document.getElementById('privacy-container');
         a.classList.toggle('legal-menu-item-2--active'); 
 
-        getElementById('tandclink').className='.legal-menu-item';
-        getElementById('privacylink').className='.legal-menu-item-3';
+        getElementById('tandclink').className='legal-menu-item';
+        getElementById('privacylink').className='legal-menu-item-3';
 
         if (a.classList.contains('legal-menu-item-2--active')) {
             container.style.display = "block";
@@ -51,8 +51,8 @@ document.querySelectorAll('.legal-menu-item-3').forEach(a => {
         const container3 = document.getElementById('refund-container');
         a.classList.toggle('legal-menu-item-3--active');
 
-        getElementById('refundlink').className='.legal-menu-item-2';
-        getElementById('tandclink').className='.legal-menu-item';
+        getElementById('refundlink').className='legal-menu-item-2';
+        getElementById('tandclink').className='legal-menu-item';
 
         if (a.classList.contains('legal-menu-item-3--active')) {
             container.style.display = "block";
