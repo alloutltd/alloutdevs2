@@ -36,9 +36,8 @@ header {
     padding-bottom: 15px;
 }
 .nav-links li a:hover {
-    text-decoration: underline;
-    text-decoration-color: #000;
-    text-decoration-thickness: 3px;
+    border-bottom: 3px solid black;
+    border-radius: 50px;
 }
 
 button {
@@ -58,6 +57,7 @@ button:hover {
 
 .blankspace p {
     color: #fff;
+    cursor: pointer;
 }
 
 .info-container {
