@@ -73,6 +73,8 @@ navbar.forEach(element => {
     element.addEventListener("click", function(){
 
         var tandc = document.getElementById("tandclink");
+        var refund = document.getElementById("tandclink");
+        var privacy = document.getElementById("tandclink");
 
         navbar.forEach(nav=>nav.classList.remove("active"))
         console.log("class1" + tandc.classList);
@@ -84,6 +86,16 @@ navbar.forEach(element => {
             document.getElementById("tandc-container").style.display="block";
         } else {
             document.getElementById("tandc-container").style.display="none";
+        }
+        if (refund.classList.contains("active")) {
+            document.getElementById("refund-container").style.display="block";
+        } else {
+            document.getElementById("refund-container").style.display="none";
+        }
+        if (privacy.classList.contains("active")) {
+            document.getElementById("privacy-container").style.display="block";
+        } else {
+            document.getElementById("privacy-container").style.display="none";
         }
     })
 })
