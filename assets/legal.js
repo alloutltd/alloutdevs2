@@ -7,10 +7,18 @@
 document.querySelectorAll('.legal-menu-item').forEach(a => {
     a.addEventListener('click', () => {
         const container = document.getElementById('tandc-container');
+        const menuItem2 = document.getElementById('refundlink');
+        const menuItem3 = document.getElementById('privacylink');
+        const container2 = document.getElementById('refund-container');
+        const container3 = document.getElementById('privacy-container');
         a.classList.toggle('legal-menu-item--active');
 
         if (a.classList.contains('legal-menu-item--active')) {
             container.style.display = "block";
+            menuItem2.style.color = "black";
+            menuItem3.style.color = "black";
+            container2.style.display = "none";
+            container3.style.display = "none";
         } else {
             container.style.display = "none";
         }
