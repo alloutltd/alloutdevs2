@@ -3,7 +3,7 @@
     margin-top: 0;
  }
 }
-.faq-nav-control-bar {
+.legal-nav-control-bar {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
@@ -18,7 +18,7 @@
     margin-top: 1.125rem;
 }
 @media (min-width: 992px) {
- .faq-nav-control-bar-inner {
+ .legal-nav-control-bar-inner {
     z-index: 1;
     opacity: 1;
     position: static;
@@ -36,20 +36,20 @@
  }
 }
 
-.faq-nav-control-bar-inner .faq-nav-control-bar-link {
+.legal-nav-control-bar-inner .legal-nav-control-bar-link {
     font-size: 0.6rem;
 }
 @media (min-width: 992px) {
-.faq-nav-control-bar-link.is-active {
+.legal-nav-control-bar-link.is-active {
     background-color: #f7f8f9;
     border-bottom: 0.125rem solid #000;
 }
 }
 @media (min-width: 992px) {
-.faq-nav-control-bar-link:first-of-type {
+.legal-nav-control-bar-link:first-of-type {
     border-left: 0.0625rem solid #e8e8e8;
 }
-.faq-nav-control-bar-link:hover {
+.legal-nav-control-bar-link:hover {
     text-decoration: none;
 }
 }
