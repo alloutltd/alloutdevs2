@@ -4,7 +4,7 @@
     })
 }) */
 
-document.getElementById('tandclink').forEach(a => {
+document.querySelectorAll('.legal-menu-item').forEach(a => {
     a.addEventListener('click', () => {
         const container = document.getElementById('tandc-container');
         a.classList.toggle('legal-menu-item--active');
