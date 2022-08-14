@@ -67,3 +67,9 @@ document.querySelectorAll('.legal-menu-item-3').forEach(a => {
 
 navbar = document.querySelector("nav").querySelectorAll("a");
 console.log(navbar);
+
+navbar.forEach(element => {
+    element.addEventListener("click", function(){
+        navbar.forEach(nav=>nav.classList.remove("active"))
+    })
+})
