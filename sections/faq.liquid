@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="{{ 'faq-stylesheet.css' | asset_url }}" media="print" onload="this.media='all'">
 <script src="{{ 'faq.js' | asset_url }}" defer="defer"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 <div class="width-container">
 <header>
@@ -20,7 +22,57 @@
 
     
 <div class="faq-container" id="delivery-container">
-      {% if section.settings.faq_description %}
+	<section>
+		<div class="accordian">
+			<div class="accordian-item" id="question1">
+				<a class="accordian-link" href="#question1">
+					Is this a test accordian?
+					<i class="iocon ion-md-add"></i>
+					<i class="iocon ion-md-remove"></i>
+				</a>
+				<div class="answer">
+					<p>ipsum dolor sit amet consectetur adipisicing elit. Assumenda, soluta?</p>
+				</div>
+			</div>
+		</div>
+		<div class="accordian">
+			<div class="accordian-item" id="question2">
+				<a class="accordian-link" href="#question2">
+					Is this a test accordian 2?
+					<i class="iocon ion-md-add"></i>
+					<i class="iocon ion-md-remove"></i>
+				</a>
+				<div class="answer">
+					<p>ipsum dolor sit amet consectetur adipisicing elit. Assumenda, soluta?</p>
+				</div>
+			</div>
+		</div>
+		<div class="accordian">
+			<div class="accordian-item" id="question3">
+				<a class="accordian-link" href="#question3">
+					Is this a test accordian 3?
+					<i class="iocon ion-md-add"></i>
+					<i class="iocon ion-md-remove"></i>
+				</a>
+				<div class="answer">
+					<p>ipsum dolor sit amet consectetur adipisicing elit. Assumenda, soluta?</p>
+				</div>
+			</div>
+		</div>
+		<div class="accordian">
+			<div class="accordian-item" id="question4">
+				<a class="accordian-link" href="#question4">
+					Is this a test accordian 4?
+					<i class="iocon ion-md-add"></i>
+					<i class="iocon ion-md-remove"></i>
+				</a>
+				<div class="answer">
+					<p>ipsum dolor sit amet consectetur adipisicing elit. Assumenda, soluta?</p>
+				</div>
+			</div>
+		</div>
+	</section>
+      <!--{% if section.settings.faq_description %}
         <div class="rte faq-description">
           {{ section.settings.faq_description }}
         </div>
@@ -39,7 +91,7 @@
       	{% endfor %}
     </div>
   </div>
-</div>
+</div>-->
 <div class="faq-container" id="refunds-container">
 	{% if section.settings.faq_description %}
 	  <div class="rte faq-description">
