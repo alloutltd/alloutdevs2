@@ -35,18 +35,10 @@
         "stack_images_on_mobile": true,
         "show_text_below": false
       }
-    },
-    "16543453617d3189d4": {
-      "type": "faq",
-      "settings": {
-        "faq_title": "FAQs - My Order",
-        "faq_description": "Need help with your order? We're sure that our FAQs can tell you what you would like to know!"
-      }
     }
   },
   "order": [
     "main",
-    "1660548601750a952f",
-    "16543453617d3189d4"
+    "1660548601750a952f"
   ]
 }
