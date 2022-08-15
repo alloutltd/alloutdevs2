@@ -68,47 +68,77 @@ nav ul li a.active {
 
 /* accordian */
 
-.questions-container{
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.question{
-    border-bottom: 1px solid #fff;
-}
-.question button{
+section {
     width: 100%;
-    background-color: #000;
+    height: 100vh;
+    background-color: #3c4053;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 20px 15px;
-    border:none;
-    outline: none;
-    font-size: 22px;
-    color: #fff;
-    font-weight: 700;
-    cursor: pointer;
-}
-.question p{
-    font-size: 22px;
-    max-height: 0;
-    opacity: 0;
-    line-height: 1.5;
-    overflow: hidden;
-    transition: all 0.6s ease;
-}
-i .d-arrow{
-    transition: transform 0.5s ease-in ;
-    color: #fff;
 }
 
-/*add this class when click*/
-.question p.show{
-    max-height: 200px; 
-    opacity: 1;
-    padding:0px 15px 30px 15px;
+.container {
+    width: 100%; 
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
 }
-.question button i .d-arrow.rotate{
+
+.accordian-item {
+    border-radius: .4rem;
+    background-color: #283042;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+}
+
+.accordian-link {
+    font-size: 1.6rem;
+    color: rgba(255,255,255,.8);
+    text-decoration: none;
+    background-color: #283042;
+    width: 100%;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accordian-link i {
+    color: #e7d5ff;
+    padding: .5rem;
+    transition: transform 0.5s ease-in;
+}
+.accordian-link i.rotate {
     transform: rotate(180deg);
 }
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: #212838;
+    transition: max-height 650ms;
+}
+
+.answer::before {
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: 90%;
+    background-color: #8fc460;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.answer p {
+    font-size: 1.4rem;
+    color: rgba(255,255,255,.6);
+    padding: 2rem;
+}
+
+.accordian-item:target .answer {
+    max-height: 20rem;
+}
+
+

@@ -1,11 +1,9 @@
-const buttons = document.querySelectorAll('button');
+const buttons = document.querySelectorAll('a');
 
-buttons.forEach( button =>{
-    button.addEventListener('click',()=>{
-        const faq = button.nextElementSibling;
-        const icon = button.children[1];
+buttons.forEach( a =>{
+    a.addEventListener('click',()=>{
+        const icon = a.children[1];
 
-        faq.classList.toggle('show');
         icon.classList.toggle('rotate');
     })
 } )
