@@ -8,19 +8,19 @@
         "padding_bottom": 28
       }
     },
-    "16603866556a9d4d99": {
+    "1660548601750a952f": {
       "type": "image-banner",
       "blocks": {
-        "1660386655d9354e2a-0": {
+        "166054860100c9d50e-0": {
           "type": "heading",
           "settings": {
-            "heading": "All Out FAQ Information",
-            "heading_size": "h0"
+            "heading": "All Out FAQs",
+            "heading_size": "h1"
           }
         }
       },
       "block_order": [
-        "1660386655d9354e2a-0"
+        "166054860100c9d50e-0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/urban-mens-fashion-on-young-adult.jpg",
@@ -36,15 +36,17 @@
         "show_text_below": false
       }
     },
-    "16603859214b6fd014": {
-      "type": "legal",
+    "16543453617d3189d4": {
+      "type": "faq",
       "settings": {
+        "faq_title": "FAQs - My Order",
+        "faq_description": "Need help with your order? We're sure that our FAQs can tell you what you would like to know!"
       }
     }
   },
   "order": [
     "main",
-    "16603866556a9d4d99",
-    "16603859214b6fd014"
+    "1660548601750a952f",
+    "16543453617d3189d4"
   ]
 }
