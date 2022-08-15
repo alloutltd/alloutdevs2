@@ -67,7 +67,7 @@ document.querySelectorAll('.legal-menu-item-3').forEach(a => {
 
 window.onload = function() {
     document.getElementById("tandclink").classList.add("active");
-    document.getElementById("tandc-container").classList.add("active")
+    document.getElementById("tandc-container").classList.add("active");
 }
 
 navbar = document.querySelector(".nav-links").querySelectorAll("a");
