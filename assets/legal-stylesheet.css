@@ -1,3 +1,5 @@
+/* header */
+
 #shopify-section-template--16352758038781__16603859214b6fd014 {
     display: flex;
     justify-content: center;
@@ -55,11 +57,16 @@ button:hover {
     color: #000;
     border: 1px solid #000;
 }
+nav ul li a.active {
+    border-bottom: 3px solid #000;
+}
 
 .blankspace p {
     color: #fff;
     cursor: pointer;
 }
+
+/* information section */
 
 .info-container {
     border-top: 2px solid #000;
@@ -67,10 +74,6 @@ button:hover {
 
 .info {
     font-size: 14px;
-}
-
-nav ul li a.active {
-    border-bottom: 3px solid #000;
 }
 
 .info-container {
