@@ -72,3 +72,10 @@ button:hover {
 nav ul li a.active {
     border-bottom: 3px solid #000;
 }
+
+.info-container {
+    display: none;
+}
+.info-container.active {
+    display: block;
+}

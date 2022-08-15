@@ -84,17 +84,19 @@ navbar.forEach(element => {
         this.classList.add("active");
 
         if (tandc.classList.contains("active")) {
-            document.getElementById("tandc-container").style.display="block";
-            document.getElementById("refund-container").style.display="none";
-            document.getElementById("privacy-container").style.display="none";
-        } else if (refund.classList.contains("active")){
-            document.getElementById("tandc-container").style.display="none";
-            document.getElementById("refund-container").style.display="block";
-            document.getElementById("privacy-container").style.display="none";
-        } else if (privacy.classList.contains("active")) {
-            document.getElementById("tandc-container").style.display="none";
-            document.getElementById("refund-container").style.display="none";
-            document.getElementById("privacy-container").style.display="block";
+            document.getElementById("tandc-container").classList.add("active")
+        } else {
+            document.getElementById("tandc-container").classList.remove("active")
+        }
+        if (refund.classList.contains("active")){
+            document.getElementById("refund-container").classList.add("active")
+        } else {
+            document.getElementById("refund-container").classList.remove("active")
+        }
+        if (privacy.classList.contains("active")) {
+            document.getElementById("privacy-container").classList.add("active")
+        } else {
+            document.getElementById("privacy-container").classList.remove("active")
         }
     })
 })
