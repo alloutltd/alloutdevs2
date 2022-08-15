@@ -134,4 +134,10 @@ nav ul li a.active {
     max-height: 20rem;
 }
 
+.accordian-item:target .accordian-link .ion-md-add {
+    display: none;
+}
+.accordian-item:target .accordian-link .ion-md-remove {
+    display: none;
+}
 
