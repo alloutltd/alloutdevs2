@@ -1,4 +1,4 @@
-window.onload = function() {
+/*window.onload = function() {
     document.getElementById("deliverylink").classList.add("active");
 }
 
@@ -50,4 +50,4 @@ navbar.forEach(element => {
             document.getElementById("technical-container").style.display="block";
         }
     })
-})
+})*/
