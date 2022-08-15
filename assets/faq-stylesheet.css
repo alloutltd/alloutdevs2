@@ -1,68 +1,6 @@
-.page-width.page-width--narrow{
-    width: 80%;
-}
-.page-width .page-width--narrow{
-    width: 80%;
-}
 
-.main-page-title {
-    text-align: center;
-    text-transform: uppercase;
-}
 
-.faq-description {
-    margin-top: 1.5em;
-    margin-bottom: 3em;
-    text-align: center;
-  }
-  
-  .faq-checkbox {
-    position: absolute;
-    opacity: 0;
-    z-index: -1;
-  }
-  
-  .tabs {
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .tab {
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 15px;
-    height: max-content;
-  }
-  
-  .tab-label {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    font-weight: bold;
-    color: white;
-    height: 75px;
-  }
-  
-  .tab-content {
-    max-height: 0;
-    padding: 0 1em;
-    transition: all 0.5s ease;
-    color: black;
-  }
-  
-  .tab-content p {
-    margin: 0;
-  }
-  
-  .faq-checkbox:checked ~ .tab-content {
-    max-height: 100vh;
-    padding: 1em;
-  }
-
-  .faq-container {
-      margin-bottom: 40px;
-  }
+  /* contact us */
 
 .contact-us-wording {
     align-items: center;
@@ -102,6 +40,8 @@
   .contact-us-button:focus::before {
       transform: scaleX(1);
   }
+
+  /* menu */
 
   #shopify-section-template--16086238855421__16543453617d3189d4 {
     display: flex;
