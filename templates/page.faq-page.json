@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "16603866556a9d4d99": {
+      "type": "image-banner",
+      "blocks": {
+        "1660386655d9354e2a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "All Out Legal Information",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "1660386655d9354e2a-0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/urban-mens-fashion-on-young-adult.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "16603859214b6fd014": {
+      "type": "legal",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16603866556a9d4d99",
+    "16603859214b6fd014"
+  ]
+}
