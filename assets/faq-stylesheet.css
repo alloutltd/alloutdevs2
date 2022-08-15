@@ -68,7 +68,13 @@ nav ul li a.active {
 
 /* accordian */
 
-
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
 
 .container {
     width: 100%; 
