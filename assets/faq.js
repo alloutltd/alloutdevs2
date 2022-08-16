@@ -23,6 +23,8 @@ navbar.forEach(element => {
         var refund = document.getElementById("refundlink");
         var myorder = document.getElementById("orderlink");
         var products = document.getElementById("productslink");
+        var payments = document.getElementById("paymentslink");
+        var technical = document.getElementById("technicallink");
 
         navbar.forEach(nav=>nav.classList.remove("active"))
 
@@ -47,6 +49,16 @@ navbar.forEach(element => {
             document.getElementById("products-section").classList.add("active")
         } else {
             document.getElementById("products-section").classList.remove("active")
+        }
+        if (payments.classList.contains("active")){
+            document.getElementById("payments-section").classList.add("active")
+        } else {
+            document.getElementById("payments-section").classList.remove("active")
+        }
+        if (technical.classList.contains("active")){
+            document.getElementById("technical-section").classList.add("active")
+        } else {
+            document.getElementById("technical-section").classList.remove("active")
         }
     })
 })
