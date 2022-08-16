@@ -21,6 +21,8 @@ navbar.forEach(element => {
 
         var delivery = document.getElementById("deliverylink");
         var refund = document.getElementById("refundlink");
+        var myorder = document.getElementById("orderlink");
+        var products = document.getElementById("productslink");
 
         navbar.forEach(nav=>nav.classList.remove("active"))
 
@@ -35,6 +37,16 @@ navbar.forEach(element => {
             document.getElementById("refund-section").classList.add("active")
         } else {
             document.getElementById("refund-section").classList.remove("active")
+        }
+        if (myorder.classList.contains("active")){
+            document.getElementById("myorder-section").classList.add("active")
+        } else {
+            document.getElementById("myorder-section").classList.remove("active")
+        }
+        if (products.classList.contains("active")){
+            document.getElementById("products-section").classList.add("active")
+        } else {
+            document.getElementById("products-section").classList.remove("active")
         }
     })
 })
