@@ -23,7 +23,7 @@ navbar.forEach(element => {
         var refund = document.getElementById("refundlink");
         var myorder = document.getElementById("orderlink");
         var products = document.getElementById("productslink");
-        var payments = document.getElementById("paymentslink");
+        var payments = document.getElementById("paymentlink");
         var technical = document.getElementById("technicallink");
 
         navbar.forEach(nav=>nav.classList.remove("active"))
