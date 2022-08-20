@@ -82,8 +82,9 @@
         {{ form.errors | default_errors }}
       {%- endif -%}
 
+      <div class="field-container">
+      <h3 class="label">Email*</h3>    
       <div class="field">    
-        <h3 class="label">Email*</h3>    
         <input
           type="email"
           name="customer[email]"
@@ -100,10 +101,12 @@
           {{ 'customer.login_page.email' | t }}
         </label>-->
       </div>
+    </div>
 
       {%- if form.password_needed -%}
+      <div class="field-container">
+        <h3 class="label">Password*</h3>    
         <div class="field">   
-          <h3 class="label">Password*</h3>    
           <input
             type="password"
             value=""
@@ -119,6 +122,7 @@
             {{ 'customer.login_page.password' | t }}
           </label>-->
         </div>
+      </div>
 
         <a id="forgot-password" href="#recover">
           {{ 'customer.login_page.forgot_password' | t }}
