@@ -794,8 +794,13 @@ input {
 
 #login-button {
   width: 85%;
+  margin-top: 20px;
 }
 
 .login-label {
   margin-bottom: 0;
+}
+
+.no-account {
+  margin-top: 0;
 }
