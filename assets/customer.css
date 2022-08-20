@@ -777,3 +777,21 @@ input {
   margin-top: 15px;
 }
 
+.forgot-password-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#login {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#login-form {
+  margin-top: 100px;
+}
+
+#login-button {
+  width: 85%;
+}
