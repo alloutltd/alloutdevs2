@@ -53,7 +53,8 @@
   </div>
 
   <h1 id="login" tabindex="-1">
-    {{ 'customer.login_page.title' | t }}
+    <!--{{ 'customer.login_page.title' | t }}-->
+    {{ 'Log into your all out account' | upcase }} 
   </h1>
   <div>
     {%- if recover_success == true -%}
@@ -81,7 +82,8 @@
         {{ form.errors | default_errors }}
       {%- endif -%}
 
-      <div class="field">        
+      <div class="field">    
+        <h3 class="label">Email*</h3>    
         <input
           type="email"
           name="customer[email]"
@@ -94,13 +96,14 @@
           {% endif %}
           placeholder="{{ 'customer.login_page.email' | t }}"
         >
-        <label for="CustomerEmail">
+       <!-- <label for="CustomerEmail">
           {{ 'customer.login_page.email' | t }}
-        </label>
+        </label>-->
       </div>
 
       {%- if form.password_needed -%}
-        <div class="field">          
+        <div class="field">   
+          <h3 class="label">Password*</h3>    
           <input
             type="password"
             value=""
@@ -112,12 +115,12 @@
             {% endif %}
             placeholder="{{ 'customer.login_page.password' | t }}"
           >
-          <label for="CustomerPassword">
+          <!--<label for="CustomerPassword">
             {{ 'customer.login_page.password' | t }}
-          </label>
+          </label>-->
         </div>
 
-        <a href="#recover">
+        <a id="forgot-password" href="#recover">
           {{ 'customer.login_page.forgot_password' | t }}
         </a>
       {%- endif -%}
@@ -126,9 +129,9 @@
         {{ 'customer.login_page.sign_in' | t }}
       </button>
 
-      <a href="{{ routes.account_register_url }}">
+      <p>Don't already have an account? <a href="{{ routes.account_register_url }}">
         {{ 'customer.login_page.create_account' | t }}
-      </a>
+      </a></p>
       
     {%- endform -%}
   </div>
