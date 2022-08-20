@@ -795,3 +795,7 @@ input {
 #login-button {
   width: 85%;
 }
+
+.login-label {
+  margin-bottom: 0;
+}
