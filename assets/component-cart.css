@@ -221,3 +221,8 @@ cart-items {
     gap: 1rem;
   }
 }
+
+#cart-title {
+  font-size: 30px;
+  font-weight: bold;
+}
