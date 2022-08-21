@@ -226,3 +226,12 @@ cart-items {
   font-size: 30px;
   font-weight: bold;
 }
+
+.title-wrapper-with-link {
+  display: grid;
+}
+
+.underlined-link {
+  text-align: center;
+  font-size: 14px;
+}
