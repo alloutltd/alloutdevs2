@@ -98,7 +98,7 @@
     "favicon": "shopify:\/\/shop_images\/Editor_X_Logo_White.jpg",
     "currency_code_enabled": true,
     "easysize_shop_id": "bfce063577",
-    "easysize_placeholder": "",
+    "easysize_placeholder": "#ProductInfo-template--16084290371837__main > variant-radios",
     "easysize_size_selector": "",
     "easysize_order_button_id": ".product-form[method='post'] button[type='submit']",
     "easysize_product_brand": "all-out-devs-2",
