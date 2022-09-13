@@ -33,6 +33,11 @@
           "settings": {
           }
         },
+        "c7e4144f-0f78-4a31-be4a-44aaf03a8ad9": {
+          "type": "shopify:\/\/apps\/fit-quiz-for-clothes-and-shoes\/blocks\/fitquiz-block\/b10c5f36-d033-4d47-9f46-97864f785a5a",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -106,6 +111,7 @@
         "caption",
         "price",
         "loox-rating",
+        "c7e4144f-0f78-4a31-be4a-44aaf03a8ad9",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
