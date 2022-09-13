@@ -63,7 +63,7 @@
                   {{ 'sections.cart.checkout' | t }}
                 </button>
               </div>
-              <div class="payment-icons" style="display: flex;">
+              <div class="payment-icons" style="display: flex; justify-content: center;">
               {% assign enabled_payment_types = 'visa,master,american_express,paypal' | remove: ' ' | split: ',' %}
             {% for type in enabled_payment_types %}
               <li class="list-payment__item">
