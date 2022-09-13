@@ -4,8 +4,8 @@
     "theme_name": "Dawn",
     "theme_version": "5.0.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.colors.name",
@@ -1141,6 +1141,112 @@
         "id": "currency_code_enabled",
         "label": "t:settings_schema.currency_format.settings.currency_code_enabled.label",
         "default": true
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Easysize"
+    },
+    "settings": [
+      {
+        "type": "header",
+        "content": {
+          "en": "Settings"
+        }
+      },
+      {
+        "type": "text",
+        "id": "easysize_shop_id",
+        "label": {
+          "en": "Shopify shop id"
+        }
+      },
+      {
+        "type": "text",
+        "id": "easysize_placeholder",
+        "label": {
+          "en": "Placeholder selector"
+        }
+      },
+      {
+        "type": "text",
+        "id": "easysize_size_selector",
+        "label": {
+          "en": "Size selector"
+        }
+      },
+      {
+        "type": "text",
+        "id": "easysize_order_button_id",
+        "label": {
+          "en": "Order button id"
+        }
+      },
+      {
+        "type": "text",
+        "id": "easysize_product_brand",
+        "label": {
+          "en": "Product brand"
+        }
+      },
+      {
+        "type": "select",
+        "id": "easysize_language",
+        "label": {
+          "en": "Language"
+        },
+        "options": [
+          {
+            "label": "English",
+            "value": "english"
+          },
+          {
+            "label": "Italian",
+            "value": "italian"
+          },
+          {
+            "label": "French",
+            "value": "french"
+          },
+          {
+            "label": "German",
+            "value": "german"
+          },
+          {
+            "label": "Danish",
+            "value": "danish"
+          },
+          {
+            "label": "Swedish",
+            "value": "swedish"
+          },
+          {
+            "label": "Dutch",
+            "value": "dutch"
+          }
+        ]
+      },
+      {
+        "type": "textarea",
+        "id": "easysize_size_update_function",
+        "label": {
+          "en": "Size update function"
+        }
+      },
+      {
+        "type": "textarea",
+        "id": "easysize_size_track_function",
+        "label": {
+          "en": "Size track function"
+        }
+      },
+      {
+        "type": "textarea",
+        "id": "mapped_genders",
+        "label": {
+          "en": "A JSON object containing the mapped genders saved through the app"
+        }
       }
     ]
   }
