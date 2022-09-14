@@ -216,10 +216,11 @@
                 </h2>
               </a>
               {% endcomment %}
-              {% assign title = product.title %}
+              
               {% for product in all_products %}
+              {% assign title = all_products.product.title %}
               {% if product.title == title %}
-              <p>{{ product.title | escape }} + {{product.title.metafields.my_fields.product_subtitle}}</p>
+              <p>{{ title | escape }} + {{product.title.metafields.my_fields.product_subtitle}}</p>
               {% endif %}
               {% endfor %}
 
