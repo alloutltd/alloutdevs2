@@ -218,10 +218,9 @@
               {% endcomment %}
               
               {% for product in all_products %}
-              {% assign title = all_products.product.title %}
-              {% if product.title == title %}
+              
               <p>{{ title | escape }} + {{product.title.metafields.my_fields.product_subtitle}}</p>
-              {% endif %}
+              
               {% endfor %}
 
             </div>
