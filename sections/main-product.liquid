@@ -219,7 +219,7 @@
 
               {% assign mainProductTitle = product.title %}
               
-              {% for product in collection.products %}
+              {% for product in all_products %}
               {% if product.title == mainProductTitle %}
               <p>{{ product.title | escape }} + {{product.title.metafields.my_fields.product_subtitle}}</p>
               {% endif %}
