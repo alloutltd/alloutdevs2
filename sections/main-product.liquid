@@ -222,7 +222,9 @@
             {% for product in collections["All-products"].products %}
             {% if product.title == mainProductTitle %}
             <p>{{ product.title | escape }}</p>
-            <a href="#">{{ product.featured_image }}</a>
+            <a href="#">
+              <img src="{{ product.featured_image }}" alt="">
+            </a>
             {% endif %}
             {% endfor %}
 
