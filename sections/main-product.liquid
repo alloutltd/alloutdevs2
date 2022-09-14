@@ -221,7 +221,8 @@
             
             {% for product in collections["All-products"].products %}
             {% if product.title == mainProductTitle %}
-            <p>{{ product.title | escape }} + {{product.title.metafields.my_fields.product_subtitle}}</p>
+            <p>{{ product.title | escape }}</p>
+            <a href="#">{{ product.media }}</a>
             {% endif %}
             {% endfor %}
 
