@@ -223,7 +223,7 @@
             {% if product.title == mainProductTitle %}
             <p>{{ product.title | escape }}</p>
             <a href="#">
-              <img src="{{ product.featured_image }}" alt="">
+              <img src={{ product.featured_image }} alt="">
             </a>
             {% endif %}
             {% endfor %}
