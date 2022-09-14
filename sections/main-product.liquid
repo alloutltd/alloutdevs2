@@ -216,6 +216,11 @@
                 </h2>
               </a>
               {% endcomment %}
+              {% assign title = product.title %}
+              {% for product in collection.products %}
+              {% if product.title == title %}
+              <p>{{ product.title | escape }} + {{product.metafields.my_fields.product_subtitle}}</p>
+              {% endfor %}
 
             </div>
           {%- when 'price' -%}
