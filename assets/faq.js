@@ -8,10 +8,11 @@ function keepLocation(oldOffset) {
   setTimeout('window.scrollTo(0,st)',10);
 }
 
-/*window.onload = function() {
+window.onload = function() {
+console.log(window.location.href.split('#')[1]);
     document.getElementById("deliverylink").classList.add("active");
     document.getElementById("delivery-section").classList.add("active");
-}*/
+}
 
 navbar = document.querySelector(".nav-links").querySelectorAll("a");
 console.log(navbar);
