@@ -217,9 +217,9 @@
               </a>
               {% endcomment %}
               {% assign title = product.title %}
-              {% for product in collection.products %}
+              {% for product in all_products %}
               {% if product.title == title %}
-              <p>{{ product.title | escape }} + {{product.metafields.my_fields.product_subtitle}}</p>
+              <p>{{ product.title | escape }} + {{product.title.metafields.my_fields.product_subtitle}}</p>
               {% endif %}
               {% endfor %}
 
