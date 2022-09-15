@@ -218,10 +218,11 @@
           {% endcomment %}
 
           {% assign mainProductTitle = product.title %}
+          {% assign mainProductID = product.id %}
           <div class="colour-options-container">
             <ul class="colour-option-list">
               {% for product in collections["All-products"].products %}
-              {% if product.title == mainProductTitle %}
+              {% if product.title == mainProductTitle and product.id != mainProductID %}
                 <li class="colour-option-link"><a href="{{ product.url }}"><img src="{{ product.featured_media | image_url: width: 125 }}" alt="#"></a></li>
               {% endif %}
               {% endfor %}
