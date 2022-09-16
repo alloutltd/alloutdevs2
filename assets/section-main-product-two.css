@@ -1033,6 +1033,7 @@ a.product__text {
   .product--thumbnail_slider .thumbnail-slider {
     display: flex;
     align-items: center;
+    width: 150px;
   }
 
   .thumbnail-slider .thumbnail-list.slider--tablet-up {
