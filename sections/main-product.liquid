@@ -218,20 +218,7 @@
           </a>
           {% endcomment %}
 
-          {% assign mainProductTitle = product.title %}
-          {% assign mainProductID = product.id %}
-          <div class="colour-options-container">
-            <ul class="colour-option-list">
-              {% for product in collections["All-products"].products %}
-              {% if product.title == mainProductTitle and product.id != mainProductID %}
-                <li class="colour-option-link"><a href="{{ product.url }}"><img src="{{ product.featured_media | image_url: width: 75 }}" alt="#"></a></li>
-              {% endif %}
-              {% endfor %}
-          </ul>
-        </div>
-
-        </div>
-      {%- when 'price' -%}
+          {%- when 'price' -%}
         <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
           {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
         </div>
@@ -254,6 +241,23 @@
             {{ form | payment_terms }}
           {%- endform -%}
         </div>
+
+          {% assign mainProductTitle = product.title %}
+          {% assign mainProductID = product.id %}
+          <div class="colour-options-container">
+            <ul class="colour-option-list">
+              {% for product in collections["All-products"].products %}
+              {% if product.title == mainProductTitle and product.id != mainProductID %}
+                <li class="colour-option-link"><a href="{{ product.url }}"><img src="{{ product.featured_media | image_url: width: 75 }}" alt="#"></a></li>
+              {% endif %}
+              {% endfor %}
+          </ul>
+        </div>
+
+        </div>
+        
+      {% comment %} Original line for price code {% endcomment %}
+
       {%- when 'description' -%}
         {%- if product.description != blank -%}
           <div class="product__description rte quick-add-hidden">
