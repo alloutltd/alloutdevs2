@@ -361,18 +361,6 @@ padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px
           <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
             {%- for option in product.options_with_values -%}
                 <fieldset class="js product-form__input">
-                  {% assign sizes = '' %}
-    {% for variant in product.variants %}
-      {% if variant.available %}
-      {% assign sizes = sizes | append: variant.options[0] | append: '_' %}
-      {% endif %}
-    {% endfor %}
-    
-    {% assign sizesArr = sizes | split: '_' | uniq %}
-    
-    {% for size in sizesArr %}
-      <span>{{ size }}</span>
-    {% endfor %}
                   <legend class="form__label">{{ option.name }}</legend>
                   {%- for value in option.values -%}
                     <input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"

@@ -5855,3 +5855,11 @@ a:hover {
 #footer-label {
   opacity: 0 !important;
 }
+
+.js.product-form__input input[type=radio] {
+  height: 60px;
+  width: 60px;
+}
+.js.product-form__input input[type=radio] label {
+  text-align: center;
+}
