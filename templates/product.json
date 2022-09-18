@@ -16,16 +16,16 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.my_fields.product_subtitle.value }}",
             "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
           }
         },
         "loox-rating": {
@@ -107,8 +107,8 @@
       "block_order": [
         "vendor",
         "title",
-        "caption",
         "price",
+        "caption",
         "loox-rating",
         "variant_picker",
         "quantity_selector",
