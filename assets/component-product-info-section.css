@@ -7,7 +7,7 @@ li, a, button {
 
 .product-info-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 30px 10%;
     border-bottom: 2px solid #000;
