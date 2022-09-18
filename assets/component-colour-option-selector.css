@@ -9,7 +9,11 @@
 
 #colour-option-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 0;
+}
+
+.colour-option-link {
+    padding: 0 2px;
 }
