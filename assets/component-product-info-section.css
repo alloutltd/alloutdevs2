@@ -56,3 +56,16 @@ button:hover {
 nav ul li a.active {
     border-bottom: 3px solid #000;
 }
+
+.sec {
+    display: none;
+}
+
+.sec.active {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

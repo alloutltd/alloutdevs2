@@ -11,6 +11,8 @@
 {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-info-section.css' | asset_url | stylesheet_tag }}
 {{ 'component-colour-option-selector.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'component-product-info-section.js' | asset_url }}" defer="defer"></script>
+
 
 {%- style -%}
 .section-{{ section.id }}-padding {
@@ -663,6 +665,42 @@ endif
     </ul>
   </nav>
 </div>
+
+<section class="sec" id="descriptionSection">
+  <div class="text-container">
+    <p class="information">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, unde sit! Est magni laborum non error magnam incidunt at ab.
+    </p>
+  </div>
+</section>
+<section class="sec" id="productFeaturesSection">
+  <div class="text-container">
+    <p class="information">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, unde sit! Est magni laborum non error magnam incidunt at ab.
+    </p>
+  </div>
+</section>
+<section class="sec" id="materialsSection">
+  <div class="text-container">
+    <p class="information">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, unde sit! Est magni laborum non error magnam incidunt at ab.
+    </p>
+  </div>
+</section>
+<section class="sec" id="careInstructionsSection">
+  <div class="text-container">
+    <p class="information">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, unde sit! Est magni laborum non error magnam incidunt at ab.
+    </p>
+  </div>
+</section>
+<section class="sec" id="sizeAndFitSection">
+  <div class="text-container">
+    <p class="information">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, unde sit! Est magni laborum non error magnam incidunt at ab.
+    </p>
+  </div>
+</section>
 
 {% schema %}
 {
