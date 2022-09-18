@@ -16,6 +16,11 @@
           "settings": {
           }
         },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -25,11 +30,6 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
-        },
-        "loox-rating": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
           }
         },
@@ -58,11 +58,13 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Product Features",
             "icon": "none",
@@ -72,6 +74,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials",
             "icon": "none",
@@ -81,6 +84,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "none",
@@ -90,6 +94,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Size & Fit",
             "icon": "none",
@@ -108,9 +113,9 @@
       "block_order": [
         "vendor",
         "title",
+        "loox-rating",
         "caption",
         "price",
-        "loox-rating",
         "c7e4144f-0f78-4a31-be4a-44aaf03a8ad9",
         "variant_picker",
         "quantity_selector",
