@@ -5,7 +5,7 @@ li, a, button {
     text-decoration: none;
 }
 
-header {
+.product-info-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,21 +13,21 @@ header {
     border-bottom: 2px solid #000;
 }
 
-.nav-links {
+.product-info-links {
     list-style: none;
 }
 
-.nav-links li {
+.product-info-links li {
     display: inline-block;
     padding: 0 40px;
 }
 
-.nav-links li a {
+.product-info-links li a {
     transition: all 0.3s ease 0s;
     padding-bottom: 15px;
     font-family: 'Montserrat';
 }
-.nav-links li a:hover {
+.product-info-links li a:hover {
     border-bottom: 3px solid black;
 }
 
