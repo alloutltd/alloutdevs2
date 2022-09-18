@@ -1,3 +1,9 @@
+.information-section-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 li, a, button {
     font-weight: bold;
     font-size: 16px;
@@ -62,7 +68,7 @@ nav ul li a.active {
 }
 
 .sec.active {
-    width: 100%;
+    width: 70%;
     height: 20vh;
     display: flex;
     align-items: center;
