@@ -10,6 +10,7 @@
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-info-section.css' | asset_url | stylesheet_tag }}
+{{ 'component-colour-option-selector.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
 .section-{{ section.id }}-padding {
@@ -243,9 +244,7 @@
         </div>
 
         <div class="colour-selector-container">
-          <p class="chosen-colour">COLOUR: {{ product.metafields.my_fields.product_subtitle }}</p>
-        </div>
-
+          <p class="chosen-colour">COLOUR: {{ product.metafields.my_fields.product_subtitle | upcase }}</p>
           {% assign mainProductTitle = product.title %}
           {% assign mainProductID = product.id %}
           <div class="colour-options-container">
@@ -256,6 +255,7 @@
               {% endif %}
               {% endfor %}
           </ul>
+        </div>
         </div>
 
         </div>

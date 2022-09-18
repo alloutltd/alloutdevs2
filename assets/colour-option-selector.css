@@ -1,0 +1,15 @@
+#chosen-colour {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.colour-options-container {
+    width: 400px;
+}
+
+.colour-option-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
