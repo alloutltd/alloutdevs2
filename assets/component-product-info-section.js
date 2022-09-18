@@ -33,11 +33,11 @@ function keepLocation(oldOffset) {
     navbar.forEach(element => {
       element.addEventListener("click", function(){
     
-          var description = document.getElementById("deliverylink");
-          var productFeatures = document.getElementById("refundlink");
-          var materials = document.getElementById("orderlink");
-          var careInstructions = document.getElementById("productslink");
-          var sizeAndFit = document.getElementById("paymentlink");
+          var description = document.getElementById("descriptionLink");
+          var productFeatures = document.getElementById("productFeaturesLink");
+          var materials = document.getElementById("materialsLink");
+          var careInstructions = document.getElementById("careInstructionsLink");
+          var sizeAndFit = document.getElementById("sizeAndFitLink");
     
           navbar.forEach(nav=>nav.classList.remove("active"))
     
