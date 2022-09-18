@@ -7,7 +7,7 @@
     width: 400px;
 }
 
-.colour-option-list {
+#colour-option-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
