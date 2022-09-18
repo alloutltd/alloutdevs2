@@ -23,6 +23,7 @@
         },
         "caption": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.my_fields.product_subtitle.value }}",
             "text_style": "subtitle"
