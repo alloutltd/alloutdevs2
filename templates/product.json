@@ -3,11 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "loox-rating": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-          }
-        },
         "vendor": {
           "type": "text",
           "disabled": true,
@@ -18,6 +13,11 @@
         },
         "title": {
           "type": "title",
+          "settings": {
+          }
+        },
+        "loox-rating": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
           }
         },
@@ -107,9 +107,9 @@
         }
       },
       "block_order": [
-        "loox-rating",
         "vendor",
         "title",
+        "loox-rating",
         "price",
         "caption",
         "variant_picker",
