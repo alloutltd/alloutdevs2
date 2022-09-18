@@ -1,7 +1,15 @@
 .information-section-main {
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
+}
+
+.product-section-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    align-items: center;
 }
 
 li, a, button {
@@ -13,6 +21,7 @@ li, a, button {
 }
 
 .product-info-container {
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -68,7 +77,7 @@ nav ul li a.active {
 }
 
 .sec.active {
-    width: 70%;
+    width: 70vw;
     height: 20vh;
     display: flex;
     align-items: center;
