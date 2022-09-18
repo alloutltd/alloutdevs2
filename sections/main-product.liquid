@@ -471,19 +471,19 @@ padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px
               {%- endif -%}
             </div>
           {%- endform -%}
-
-          <div class="product-info-container">
-            <nav>
-              <ul class="product-info-links">
-                <li><a class="product-info-item" id="descriptionLink" href="#/">Description</a></li>
-                <li><a class="product-info-item" id="productFeaturesLink" href="#/">Product Features</a></li>
-                <li><a class="product-info-item" id="materialsLink" href="#/">Materials</a></li>
-                <li><a class="product-info-item" id="careInstructionsLink" href="#/">Care Instructions</a></li>
-                <li><a class="product-info-item" id="sizeAndFitLink" href="#/">Size & Fit</a></li>
-              </ul>
-            </nav>
-          </div>
         </product-form>
+
+        <div class="product-info-container">
+          <nav>
+            <ul class="product-info-links">
+              <li><a class="product-info-item" id="descriptionLink" href="#/">Description</a></li>
+              <li><a class="product-info-item" id="productFeaturesLink" href="#/">Product Features</a></li>
+              <li><a class="product-info-item" id="materialsLink" href="#/">Materials</a></li>
+              <li><a class="product-info-item" id="careInstructionsLink" href="#/">Care Instructions</a></li>
+              <li><a class="product-info-item" id="sizeAndFitLink" href="#/">Size & Fit</a></li>
+            </ul>
+          </nav>
+        </div>
 
         {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
