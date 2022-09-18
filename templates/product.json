@@ -16,16 +16,17 @@
           "settings": {
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.my_fields.product_subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.my_fields.product_subtitle.value }}",
+            "text_style": "subtitle"
           }
         },
         "loox-rating": {
@@ -107,8 +108,8 @@
       "block_order": [
         "vendor",
         "title",
-        "caption",
         "price",
+        "caption",
         "loox-rating",
         "variant_picker",
         "quantity_selector",
