@@ -21,7 +21,7 @@ button span{
 .product-form__input input[type=radio]:checked+label {
   background-color: rgb(var(--color-foreground));
   color: rgb(var(--color-background));
-  border: 1px solid #fff;
+  border: 2px solid #fff;
 }
 
 .product-form__input input[type=radio]+label {
@@ -146,7 +146,8 @@ button span{
 
 .shopify-payment-button__button--unbranded:hover,
 .shopify-payment-button__button--unbranded:hover:not([disabled]) {
-  background-color: rgba(var(--color-button), var(--alpha-button-background));
+  /*background-color: rgba(var(--color-button), var(--alpha-button-background));*/
+  background-color: aqua;
 }
 
 .shopify-payment-button__more-options {
