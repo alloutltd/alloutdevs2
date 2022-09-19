@@ -18,6 +18,18 @@ button span{
   color: #000;
 }
 
+.product-form__input input[type=radio]:checked+label {
+  background-color: rgb(var(--color-foreground));
+  color: rgb(var(--color-background));
+  border: 1px solid #fff;
+}
+
+.product-form__input input[type=radio]+label {
+  background-color: rgb(var(--color-foreground));
+  color: rgb(var(--color-background));
+  border: none;
+}
+
 .product {
   margin: 0;
 }
