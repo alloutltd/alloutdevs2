@@ -68,7 +68,7 @@ button:hover {
     cursor: pointer;
 }
 nav ul li a.active {
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid #fff;
 }
 
 .sec {
