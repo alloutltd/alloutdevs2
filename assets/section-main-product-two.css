@@ -1219,20 +1219,9 @@ h1 {
   font-weight: bold;
 }
 
-/*.price-item {
-  font-size: 4rem;
-  /*font-size: 24px;
-  font-weight: bold;
-}*/
-
-.price__regular .price-item--regular {
-  font-size: 4rem;
-  /*font-size: 24px;*/
-  font-weight: bold;
-}
-
-.card-information .price {
+.price-item {
   font-size: 24px;
+  font-weight: bold;
 }
 
 .product__media img {
