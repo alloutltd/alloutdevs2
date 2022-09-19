@@ -1231,6 +1231,10 @@ h1 {
   font-weight: bold;
 }
 
+.price {
+  font-size: 24px;
+}
+
 .product__media img {
   height: 500px;
 }
