@@ -150,8 +150,8 @@ button span{
 .shopify-payment-button__button--unbranded:hover:not([disabled]) {
   /*background-color: rgba(var(--color-button), var(--alpha-button-background));*/
   background-color: #141414;
-  border: 2px solid #fff;
-  color: #000;
+  border: 3px solid #fff;
+  color: #fff;
 }
 
 .shopify-payment-button__more-options {
@@ -302,10 +302,21 @@ fieldset.product-form__input .form__label {
   margin-bottom: 1rem;
 }
 
-.no-js .product-form__submit.button--secondary {
+/*.no-js .product-form__submit.button--secondary {
   --color-button: var(--color-base-accent-1);
   --color-button-text: var(--color-base-solid-button-labels);
   --alpha-button-background: 1;
+}*/
+
+.no-js .product-form__submit.button--secondary {
+  color: #000;
+  background-color: #fff;
+}
+
+.no-js .product-form__submit.button--secondary:hover {
+  color: #fff;
+  background-color: #141414;
+  border: 3px solid #fff;
 }
 
 .product-form__submit[aria-disabled="true"] + .shopify-payment-button,
