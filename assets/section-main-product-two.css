@@ -1,27 +1,19 @@
-#MainContent {
-  background-color: #141414;
-}
-
-.shopify-section section {
-  background-color: #141414;
-}
-
 h1, h2, h3, h4, h5, p, span, a, li, ul, legend {
-  color: #fff;
+  color: #000;
 }
 
 button {
-  background-color: #fff;
+  background-color: #141414;
 }
 
 button span{
-  color: #000;
+  color: #fff;
 }
 
 .product-form__input input[type=radio]:checked+label {
   background-color: rgb(var(--color-foreground));
   color: rgb(var(--color-background));
-  border: 2px solid #fff;
+  border: 2px solid #141414;
 }
 
 .product-form__input input[type=radio]+label {
@@ -149,9 +141,9 @@ button span{
 .shopify-payment-button__button--unbranded:hover,
 .shopify-payment-button__button--unbranded:hover:not([disabled]) {
   /*background-color: rgba(var(--color-button), var(--alpha-button-background));*/
-  background-color: #141414;
-  border: 3px solid #fff;
-  color: #fff;
+  background-color: #fff;
+  border: 3px solid #141414;
+  color: #000;
 }
 
 .shopify-payment-button__more-options {
@@ -300,18 +292,17 @@ fieldset.product-form__input .form__label {
 
 .product-form__submit {
   margin-bottom: 1rem;
-  background-color: #fff;
-  color: #000;
+  background-color: #141414;
+  color: #fff;
 }
 
 .product-form__submit:hover {
-  background-color: #141414;
-  color: #fff;
-  border: 3px solid #fff;
+  background-color: #fff;
+  border: 3px solid #141414;
 }
 
 .product-form__submit:hover span{
-  color: #fff;
+  color: #000;
 }
 
 .no-js .product-form__submit.button--secondary {

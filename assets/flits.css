@@ -11,19 +11,7 @@
     border-radius: 50px !important;
     min-width: 64px;
     width: 440px;
-    background-color: #fff;
-    color: #000;
 }
 
-.flits-wls-button:hover {
-    margin-top: 1rem;
-    height: 4.6rem;
-    border-radius: 50px !important;
-    min-width: 64px;
-    width: 440px;
-    background-color: #141414;
-    color: #fff;
-    border: 3px solid #fff;
-}
 /* order status page credit section */
 .flits-order-status.flits-store-credit-box{margin-top:15px;background:#fff;border:1px solid;border-radius:5px;border-color:#d9d9d9;color:#545454}.flits-order-status.flits-store-credit-box .content-box__row{padding:18px}.flits-order-status.flits-store-credit-box .flits-skeleton-box{position:relative;height:70%}.flits-order-status.flits-store-credit-box .flits-skeleton-box:after{content:" "!important;height:100%;width:100%;display:block;background-color:#dfe3e8;-webkit-animation:SkeletonShimmerAnimation .8s linear infinite alternate;animation:SkeletonShimmerAnimation .8s linear infinite alternate;border-radius:4px;position:absolute;top:0;left:0;right:0;bottom:0}@keyframes SkeletonShimmerAnimation{0%{opacity:.45}to{opacity:.9}}.flits-order-status.flits-store-credit-box .flits-skeleton-row .flits-skeleton-item{display:block;padding:2px 0;position:relative;height:30px;width:100%;overflow:hidden}.flits-order-status.flits-store-credit-box .flits-skeleton-row .flits-skeleton-item .flits-skeleton-box-1{width:100%}.flits-order-status.flits-store-credit-box .flits-skeleton-row .flits-skeleton-item .flits-skeleton-box-2{width:70%;height:60%}.flits-order-status.flits-store-credit-box .flits-skeleton-row .flits-skeleton-item .flits-skeleton-box-3{width:85%;height:60%}.flits-order-status.flits-store-credit-box .flits-skeleton-row .flits-skeleton-item .flits-skeleton-box-4{width:60%}.flits-order-status.flits-store-credit-box h2{color:#333;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",sans-serif;font-size:20px;line-height:27px;font-weight:400;margin:0}.flits-order-status.flits-store-credit-box .flits-order-credit-row>*+*{margin-top:10px}.flits-order-status.flits-store-credit-box p{line-height:24px;margin:0}.flits-order-status.flits-store-credit-box ul.earned-credit-ul{padding:0}.flits-order-status.flits-store-credit-box ul.earned-credit-ul li{line-height:24px;list-style-type:none;background:url(data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2220px%22%20height%3D%2220px%22%20fill%3D%22%23545454%22%20viewBox%3D%220%200%2024%2024%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22m12%202c-5.514%200-10%204.486-10%2010s4.486%2010%2010%2010%2010-4.486%2010-10c0-1.126-0.19602-2.2058-0.54102-3.2168l-1.6191%201.6191c0.105%200.516%200.16016%201.0507%200.16016%201.5977%200%204.411-3.589%208-8%208s-8-3.589-8-8%203.589-8%208-8c1.633%200%203.1519%200.49389%204.4199%201.3379l1.4316-1.4316c-1.648-1.194-3.6666-1.9062-5.8516-1.9062zm9.293%201.293-10.293%2010.293-3.293-3.293-1.4141%201.4141%204.707%204.707%2011.707-11.707-1.4141-1.4141z%22/%3E%3C/svg%3E) no-repeat;background-position:left 2px;padding-left:24px}
