@@ -6,8 +6,16 @@
   background-color: #141414;
 }
 
-h1, h2, h3, h4, h5, p, span, a, li, ul {
+h1, h2, h3, h4, h5, p, span, a, li, ul, legend {
   color: #fff;
+}
+
+button {
+  background-color: #fff;
+}
+
+button span{
+  color: #000;
 }
 
 .product {
