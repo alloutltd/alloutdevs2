@@ -17,3 +17,7 @@
 .colour-option-link {
     padding: 0 2px;
 }
+
+li {
+    list-style: none;
+}

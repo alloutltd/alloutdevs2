@@ -1180,7 +1180,8 @@ h1 {
 }
 
 .price-item {
-  font-size: 24px;
+  font-size: 4rem;
+  /*font-size: 24px;*/
   font-weight: bold;
 }
 
