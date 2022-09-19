@@ -310,6 +310,10 @@ fieldset.product-form__input .form__label {
   border: 3px solid #fff;
 }
 
+.product-form__submit:hover span{
+  color: #fff;
+}
+
 .no-js .product-form__submit.button--secondary {
   --color-button: var(--color-base-accent-1);
   --color-button-text: var(--color-base-solid-button-labels);
