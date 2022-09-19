@@ -1219,7 +1219,13 @@ h1 {
   font-weight: bold;
 }
 
-.price-item span {
+/*.price-item {
+  font-size: 4rem;
+  /*font-size: 24px;
+  font-weight: bold;
+}*/
+
+.price__regular .price-item--regular {
   font-size: 4rem;
   /*font-size: 24px;*/
   font-weight: bold;
