@@ -5757,7 +5757,6 @@ border: none;
 
 .header__menu-item:hover { 
   text-decoration: none !important;
-  color: red;
   transform: scale(1.1);
 }
 
@@ -5771,7 +5770,6 @@ text-decoration: none !important;
 
 .header__active-menu-item:hover {
   text-decoration: none !important;
-  color: red;
   transform: scale(1.1);
   }
 
