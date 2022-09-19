@@ -25,7 +25,7 @@ li, a, button {
     align-items: center;
     padding: 30px 10%;
     /*border-bottom: 2px solid #000;*/
-    background-color: #BEBDBD;
+    background-color: #141441;
 }
 
 .product-info-links {
@@ -41,9 +41,10 @@ li, a, button {
     transition: all 0.3s ease 0s;
     padding-bottom: 15px;
     font-family: 'Montserrat';
+    color: #fff;
 }
 .product-info-links li a:hover {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #fff;
 }
 
 button {
@@ -80,4 +81,5 @@ nav ul li a.active {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 2px solid #141414;
 }
