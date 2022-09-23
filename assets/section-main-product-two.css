@@ -1244,3 +1244,7 @@ img {
   height: 100%;
   align-items: center;
 }
+
+a {
+  text-transform: none !important;
+}
