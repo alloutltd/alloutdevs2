@@ -8,6 +8,7 @@
     justify-content: center;
     height: max-content;
     align-items: center;
+    border-bottom: 2px solid #141414;
 }
 
 li, a, button {
@@ -82,14 +83,9 @@ nav ul li a.active {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid #141414;
 }
 
 .text-container {
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
     display: contents;
 }
 
