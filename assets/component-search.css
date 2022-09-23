@@ -31,3 +31,7 @@
 input::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+
+.field__label {
+  display: none;
+}
