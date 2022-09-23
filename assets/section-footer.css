@@ -469,6 +469,8 @@ noscript .localization-selector.link {
 .copyright__content a {
   color: currentColor;
   text-decoration: none;
+  font-size: 10px !important;
+  font-weight: 100 !important;
 }
 
 @keyframes animateLocalization {
