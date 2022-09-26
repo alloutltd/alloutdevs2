@@ -87,7 +87,7 @@ nav ul li a.active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 
@@ -159,5 +159,9 @@ nav ul li a.active {
 }
 .accordian-item:target .accordian-link .ion-md-remove {
     display: none;
+}
+
+#top-accordian {
+    margin-top: 30px;
 }
 
