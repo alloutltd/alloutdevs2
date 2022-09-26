@@ -133,6 +133,7 @@ nav ul li a.active {
     position: relative;
     background-color: #333;
     transition: max-height 650ms;
+    border-radius: .4rem;
 }
 
 .answer::before {
@@ -144,6 +145,7 @@ nav ul li a.active {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+    border-radius: 0 .4rem .4rem 0;;
 }
 .answer p {
     font-size: 1.4rem;
