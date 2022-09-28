@@ -33,8 +33,9 @@
   color: #fff;
 }
 
-.search__button field__button:hover {
+.search__button.field__button:hover {
   color: #fff;
+  border: 1px solid #fff;
 }
 
 /* Remove extra spacing for search inputs in Safari */
@@ -44,4 +45,8 @@ input::-webkit-search-decoration {
 
 .field__label {
   display: none;
+}
+
+.search-modal__close-button .modal__close-button link .link--text .focus-inset {
+  border: 1px solid #fff;
 }
