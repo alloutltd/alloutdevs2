@@ -49,4 +49,6 @@ input::-webkit-search-decoration {
 .search-modal__close-button:hover {
   background-color: rgb(var(--color-background));
   z-index: 2;
+  border: 1px solid #fff;
+  color: #fff;
 }
