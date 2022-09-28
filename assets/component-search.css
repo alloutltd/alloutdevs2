@@ -32,6 +32,10 @@
   color: #fff;
 }
 
+.search__button .field__button:hover {
+  color: #fff;
+}
+
 /* Remove extra spacing for search inputs in Safari */
 input::-webkit-search-decoration {
   -webkit-appearance: none;
