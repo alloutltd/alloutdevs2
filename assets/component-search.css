@@ -10,7 +10,6 @@
 .search__button:focus-visible {
   background-color: rgb(var(--color-background));
   z-index: 2;
-  border: 1px solid #fff;
 }
 
 .search__button:focus {
