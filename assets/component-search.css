@@ -10,6 +10,7 @@
 .search__button:focus-visible {
   background-color: rgb(var(--color-background));
   z-index: 2;
+  border: 1px solid #fff;
 }
 
 .search__button:focus {
@@ -20,7 +21,6 @@
 .search__button:not(:focus-visible):not(.focused){
   box-shadow: inherit;
   background-color: inherit;
-  border: 1px solid #fff;
 }
 
 .search__button .icon {
