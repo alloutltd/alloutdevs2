@@ -57,7 +57,7 @@
           "type": "button",
           "settings": {
             "button_label": "FAQs",
-            "button_link": "shopify:\/\/pages\/faqs-delivery",
+            "button_link": "https:\/\/all-out-devs-2.myshopify.com\/pages\/faq-page#delivery",
             "button_style_secondary": false
           }
         }
