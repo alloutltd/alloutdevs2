@@ -83,7 +83,7 @@ nav ul li a.active {
 
 .sec.active {
     width: 100%;
-    height: 100vh;
+    height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
