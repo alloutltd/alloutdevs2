@@ -2,6 +2,7 @@
   "sections": {
     "16602316578ff81d36": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "1660231657d930349b-0": {
           "type": "heading",
@@ -39,6 +40,13 @@
     "1660231808f8bb4217": {
       "type": "rich-text",
       "blocks": {
+        "895106ea-248a-4502-ae20-c6c1729fe42e": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact Us",
+            "heading_size": "h0"
+          }
+        },
         "16602318086c95fa95-1": {
           "type": "text",
           "settings": {
@@ -55,6 +63,7 @@
         }
       },
       "block_order": [
+        "895106ea-248a-4502-ae20-c6c1729fe42e",
         "16602318086c95fa95-1",
         "16602318086c95fa95-2"
       ],
