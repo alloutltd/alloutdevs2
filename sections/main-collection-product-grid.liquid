@@ -107,7 +107,6 @@
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
                 <li class="grid__item">
-                  <p>{{ product.title }}</p>
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
@@ -197,7 +196,7 @@
     {
       "type": "checkbox",
       "id": "show_title",
-      "default": false,
+      "default": true,
       "label": "t:sections.main-collection-product-grid.settings.show_title.label"
     },
     {
