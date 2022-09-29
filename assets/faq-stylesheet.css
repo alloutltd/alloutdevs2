@@ -97,7 +97,7 @@ select {
     background-image: none;
     background-color: #fff;
     border: 1px solid #000;
-    color: #000;
+    color: #000 !important;
 }
 .select {
     position: relative;
@@ -115,7 +115,7 @@ select::-ms-expand {
 select {
     flex: 1;
     padding: 0 .5em;
-    color: #000;
+    color: #000 !important;
     cursor: pointer;
 }
 .select::after {
@@ -129,7 +129,7 @@ select {
     pointer-events: none;
     transition: .25 all ease;
     border: 1px solid #000;
-    color: #000;
+    color: #000 !important;
 }
 .select:hover::after {
     color: #23b499;
