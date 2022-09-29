@@ -95,6 +95,9 @@ select {
     box-shadow: none;
     border: 0 !important;
     background-image: none;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
 }
 .select {
     position: relative;
