@@ -112,7 +112,7 @@ select::-ms-expand {
 select {
     flex: 1;
     padding: 0 .5em;
-    color: #fff;
+    color: #000;
     cursor: pointer;
 }
 .select::after {
@@ -121,10 +121,11 @@ select {
     top: 0;
     right: 0;
     padding: 0 1em;
-    background: #000;
+    background: #fff;
     cursor: pointer;
     pointer-events: none;
     transition: .25 all ease;
+    border: 1px solid #000;
 }
 .select:hover::after {
     color: #23b499;
