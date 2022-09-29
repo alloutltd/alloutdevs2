@@ -67,6 +67,10 @@ nav ul li a.active {
     border-bottom: 3px solid #000;
 }
 
+.legal-menu-item {
+    font-size: 16px !important
+}
+
 /* accordian */
 
 *,

@@ -66,6 +66,10 @@ nav ul li a.active {
     cursor: pointer;
 }
 
+.legal-menu-item {
+    font-size: 16px !important
+}
+
 /* information section */
 
 .info-container {
