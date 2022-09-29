@@ -16,7 +16,7 @@
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_title": false,
+        "show_title": true,
         "show_rating": true,
         "enable_quick_add": false,
         "enable_filtering": true,
