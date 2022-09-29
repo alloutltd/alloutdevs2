@@ -129,6 +129,7 @@ select {
     pointer-events: none;
     transition: .25 all ease;
     border: 1px solid #000;
+    color: #000;
 }
 .select:hover::after {
     color: #23b499;
