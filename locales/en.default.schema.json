@@ -635,6 +635,9 @@
         "show_vendor": {
           "label": "Show vendor"
         },
+        "show_title": {
+          "label": "Show title"
+        },
         "show_rating": {
           "label": "Show product rating",
           "info": "To display a rating, add a product rating app. [Learn more](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
