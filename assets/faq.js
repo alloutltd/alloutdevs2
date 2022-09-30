@@ -86,6 +86,9 @@ if (window.matchMedia("(min-width: 1441px").matches) {
     window.onload = function() {
 
         var select = document.getElementById("faqCategories");
+        var value = select.options[select.selectedIndex].value;
+
+        console.log('this is the value: ' + value);
 
         if(window.location.href.split('#')[1] == 'delivery') {
           select.value == 'delivery';
