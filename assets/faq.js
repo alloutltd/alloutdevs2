@@ -1,82 +1,90 @@
 function keepLocation(oldOffset) {
-if (window.pageYOffset!= null){
-  st=oldOffset;
-}
-if (document.body.scrollWidth!= null){
-  st=oldOffset;
-}
-setTimeout('window.scrollTo(0,st)',10);
-}
-
-window.onload = function() {
-if(window.location.href.split('#')[1] == 'delivery') {
-  document.getElementById("deliverylink").classList.add("active");
-  document.getElementById("delivery-section").classList.add("active");
- } else if(window.location.href.split('#')[1] == 'refunds') {
-  document.getElementById("refundlink").classList.add("active");
-  document.getElementById("refund-section").classList.add("active");
- } else if(window.location.href.split('#')[1] == 'my-order') {
-  document.getElementById("orderlink").classList.add("active");
-  document.getElementById("myorder-section").classList.add("active");
- } else if(window.location.href.split('#')[1] == 'products') {
-  document.getElementById("productslink").classList.add("active");
-  document.getElementById("products-section").classList.add("active");
- } else if(window.location.href.split('#')[1] == 'payments') {
-  document.getElementById("paymentlink").classList.add("active");
-  document.getElementById("payments-section").classList.add("active");
- } else if(window.location.href.split('#')[1] == 'technical') {
-  document.getElementById("technicallink").classList.add("active");
-  document.getElementById("technical-section").classList.add("active");
- }
+  if (window.pageYOffset!= null){
+    st=oldOffset;
+  }
+  if (document.body.scrollWidth!= null){
+    st=oldOffset;
+  }
+  setTimeout('window.scrollTo(0,st)',10);
 }
 
-navbar = document.querySelector(".nav-links").querySelectorAll("a");
-console.log(navbar);
+if (window.matchMedia("(min-width: 1441px").matches) {
+  window.onload = function() {
+    if(window.location.href.split('#')[1] == 'delivery') {
+      document.getElementById("deliverylink").classList.add("active");
+      document.getElementById("delivery-section").classList.add("active");
+    } else if(window.location.href.split('#')[1] == 'refunds') {
+      document.getElementById("refundlink").classList.add("active");
+      document.getElementById("refund-section").classList.add("active");
+    } else if(window.location.href.split('#')[1] == 'my-order') {
+      document.getElementById("orderlink").classList.add("active");
+      document.getElementById("myorder-section").classList.add("active");
+    } else if(window.location.href.split('#')[1] == 'products') {
+      document.getElementById("productslink").classList.add("active");
+      document.getElementById("products-section").classList.add("active");
+    } else if(window.location.href.split('#')[1] == 'payments') {
+      document.getElementById("paymentlink").classList.add("active");
+      document.getElementById("payments-section").classList.add("active");
+    } else if(window.location.href.split('#')[1] == 'technical') {
+      document.getElementById("technicallink").classList.add("active");
+      document.getElementById("technical-section").classList.add("active");
+    }
+  }
+  navbar = document.querySelector(".nav-links").querySelectorAll("a");
+  console.log(navbar);
 
-navbar.forEach(element => {
+  navbar.forEach(element => {
   element.addEventListener("click", function(){
 
-      var delivery = document.getElementById("deliverylink");
-      var refund = document.getElementById("refundlink");
-      var myorder = document.getElementById("orderlink");
-      var products = document.getElementById("productslink");
-      var payments = document.getElementById("paymentlink");
-      var technical = document.getElementById("technicallink");
+  var delivery = document.getElementById("deliverylink");
+  var refund = document.getElementById("refundlink");
+  var myorder = document.getElementById("orderlink");
+  var products = document.getElementById("productslink");
+  var payments = document.getElementById("paymentlink");
+  var technical = document.getElementById("technicallink");
 
-      navbar.forEach(nav=>nav.classList.remove("active"))
+  navbar.forEach(nav=>nav.classList.remove("active"))
 
-      this.classList.add("active");
+  this.classList.add("active");
 
-      if (delivery.classList.contains("active")) {
-          document.getElementById("delivery-section").classList.add("active")
-      } else {
-          document.getElementById("delivery-section").classList.remove("active")
-      }
-      if (refund.classList.contains("active")){
-          document.getElementById("refund-section").classList.add("active")
-      } else {
-          document.getElementById("refund-section").classList.remove("active")
-      }
-      if (myorder.classList.contains("active")){
-          document.getElementById("myorder-section").classList.add("active")
-      } else {
-          document.getElementById("myorder-section").classList.remove("active")
-      }
-      if (products.classList.contains("active")){
-          document.getElementById("products-section").classList.add("active")
-      } else {
-          document.getElementById("products-section").classList.remove("active")
-      }
-      if (payments.classList.contains("active")){
-          document.getElementById("payments-section").classList.add("active")
-      } else {
-          document.getElementById("payments-section").classList.remove("active")
-      }
-      if (technical.classList.contains("active")){
-          document.getElementById("technical-section").classList.add("active")
-      } else {
-          document.getElementById("technical-section").classList.remove("active")
-      }
+  if (delivery.classList.contains("active")) {
+    document.getElementById("delivery-section").classList.add("active")
+  } else {
+    document.getElementById("delivery-section").classList.remove("active")
+  }
+  if (refund.classList.contains("active")){
+    document.getElementById("refund-section").classList.add("active")
+  } else {
+    document.getElementById("refund-section").classList.remove("active")
+  }
+  if (myorder.classList.contains("active")){
+    document.getElementById("myorder-section").classList.add("active")
+  } else {
+    document.getElementById("myorder-section").classList.remove("active")
+  }
+  if (products.classList.contains("active")){
+    document.getElementById("products-section").classList.add("active")
+  } else {
+    document.getElementById("products-section").classList.remove("active")
+  }
+  if (payments.classList.contains("active")){
+    document.getElementById("payments-section").classList.add("active")
+  } else {
+    document.getElementById("payments-section").classList.remove("active")
+  }
+  if (technical.classList.contains("active")){
+    document.getElementById("technical-section").classList.add("active")
+  } else {
+    document.getElementById("technical-section").classList.remove("active")
+  }
+
   })
-})
+
+  })
+}
+
+
+
+
+
 
