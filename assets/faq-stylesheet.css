@@ -109,15 +109,15 @@ header {
     overflow: hidden;
     border-radius: .5em;
 }
-/*select::-ms-expand {
+select::-ms-expand {
     display: none;
-}*/
-/*select {
+}
+select {
     flex: 1;
     padding: 0 .5em;
     color: #000 !important;
     cursor: pointer;
-}*/
+}
 .select::after {
     content: '\25BC';
     position: absolute;
