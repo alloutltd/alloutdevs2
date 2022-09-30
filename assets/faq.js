@@ -145,6 +145,16 @@ if (window.matchMedia("(min-width: 1441px").matches) {
 
 }
 
+function val() {
+    
+    var select = document.getElementById("faqCategories");
+    var value = select.options[select.selectedIndex].value;
+    alert(select);
+
+    console.log('this is the value: ' + value);
+    
+}
+
 
 
 
