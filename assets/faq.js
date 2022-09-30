@@ -92,32 +92,32 @@ window.onload = function() {
 
     if(window.location.href.split('#')[1] == 'delivery') {
         select.value.remove;
-        select.value == 'delivery';
+        select.value = 'delivery';
         console.log(value);
         document.getElementById("delivery-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'refunds') {
         select.value.remove;
-        select.value == 'refund';
+        select.value = 'refund';
         console.log(value);
         document.getElementById("refund-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'my-order') {
         select.value.remove;
-        select.value == 'order';
+        select.value = 'order';
         console.log(value);
         document.getElementById("myorder-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'products') {
         select.value.remove;
-        select.value == 'product';
+        select.value = 'product';
         console.log(value);
         document.getElementById("products-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'payments') {
         select.value.remove;
-        select.value == 'payments';
+        select.value = 'payments';
         console.log(value);
         document.getElementById("payments-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'technical') {
         select.value.remove;
-        vaselect.valuelue == 'technical';
+        select.value = 'technical';
         console.log(value);
         document.getElementById("technical-section").classList.add("active");
     }
