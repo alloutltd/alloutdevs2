@@ -97,7 +97,7 @@ if (window.matchMedia("(min-width: 1441px").matches) {
           console.log(value);
           document.getElementById("refund-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'my-order') {
-            value.set = 'order'
+          value == 'order'
           console.log(value);
           document.getElementById("myorder-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'products') {
