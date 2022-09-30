@@ -86,26 +86,27 @@ if (window.matchMedia("(min-width: 1441px").matches) {
     window.onload = function() {
 
         var select = document.getElementById("faqCategories");
+        var value = select.options[select.selectedIndex].value;
 
         console.log('this is the value: ' + value);
 
         if(window.location.href.split('#')[1] == 'delivery') {
-          document.getElementById("deliveryId").selected = true;
+          value = 'delivery';
           document.getElementById("delivery-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'refunds') {
-          document.getElementById("refundId").selected = true;
+          value = 'refund';
           document.getElementById("refund-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'my-order') {
-          document.getElementById("orderId").selected = true;
+          value = 'order';
           document.getElementById("myorder-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'products') {
-          document.getElementById("productsId").selected = true;
+          value = 'product';
           document.getElementById("products-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'payments') {
-          document.getElementById("paymentsId").selected = true;
+          value = 'payments';
           document.getElementById("payments-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'technical') {
-          document.getElementById("technicalId").selected = true;
+          value = 'technical';
           document.getElementById("technical-section").classList.add("active");
         }
 }
