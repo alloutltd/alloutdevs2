@@ -81,6 +81,65 @@ if (window.matchMedia("(min-width: 1441px").matches) {
   })
 
   })
+} else {
+
+    window.onload = function() {
+
+        var select = document.getElementById("faqCategories");
+
+        if(window.location.href.split('#')[1] == 'delivery') {
+          select.value = 'delivery';
+          document.getElementById("delivery-section").classList.add("active");
+        } else if(window.location.href.split('#')[1] == 'refunds') {
+          select.value = 'refund';
+          document.getElementById("refund-section").classList.add("active");
+        } else if(window.location.href.split('#')[1] == 'my-order') {
+          select.value = 'order';
+          document.getElementById("myorder-section").classList.add("active");
+        } else if(window.location.href.split('#')[1] == 'products') {
+          select.value = 'products';
+          document.getElementById("products-section").classList.add("active");
+        } else if(window.location.href.split('#')[1] == 'payments') {
+          select.value = 'payments';
+          document.getElementById("payments-section").classList.add("active");
+        } else if(window.location.href.split('#')[1] == 'technical') {
+          select.value = 'technical';
+          document.getElementById("technical-section").classList.add("active");
+        }
+
+        if (select.value = 'payments') {
+            document.getElementById("delivery-section").classList.add("active")
+          } else {
+            document.getElementById("delivery-section").classList.remove("active")
+          }
+          if (select.value = 'refund') {
+            document.getElementById("refund-section").classList.add("active")
+          } else {
+            document.getElementById("refund-section").classList.remove("active")
+          }
+          if (select.value = 'order'){
+            document.getElementById("myorder-section").classList.add("active")
+          } else {
+            document.getElementById("myorder-section").classList.remove("active")
+          }
+          if (select.value = 'products'){
+            document.getElementById("products-section").classList.add("active")
+          } else {
+            document.getElementById("products-section").classList.remove("active")
+          }
+          if (select.value = 'payments'){
+            document.getElementById("payments-section").classList.add("active")
+          } else {
+            document.getElementById("payments-section").classList.remove("active")
+          }
+          if (select.value = 'technical'){
+            document.getElementById("technical-section").classList.add("active")
+          } else {
+            document.getElementById("technical-section").classList.remove("active")
+          }
+
+      }
+
 }
 
 
