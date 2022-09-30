@@ -91,23 +91,23 @@ if (window.matchMedia("(min-width: 1441px").matches) {
         console.log('this is the value: ' + value);
 
         if(window.location.href.split('#')[1] == 'delivery') {
-          value = 'delivery';
+          console.log(value);
           document.getElementById("delivery-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'refunds') {
-          value = 'refund';
+          console.log(value);
           document.getElementById("refund-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'my-order') {
-          value = 'order';
+          console.log(value);
           document.getElementById("myorder-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'products') {
-          value = 'product';
-          document.getElementById("products-section").classList.add("active");
+            console.log(value);
+            document.getElementById("products-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'payments') {
-          value = 'payments';
-          document.getElementById("payments-section").classList.add("active");
+            console.log(value);
+            document.getElementById("payments-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'technical') {
-          value = 'technical';
-          document.getElementById("technical-section").classList.add("active");
+            console.log(value);
+            document.getElementById("technical-section").classList.add("active");
         }
 }
 
