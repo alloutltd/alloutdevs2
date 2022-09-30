@@ -86,27 +86,26 @@ if (window.matchMedia("(min-width: 1441px").matches) {
     window.onload = function() {
 
         var select = document.getElementById("faqCategories");
-        var value = select.options[select.selectedIndex].value;
 
         console.log('this is the value: ' + value);
 
         if(window.location.href.split('#')[1] == 'delivery') {
-          value == 'delivery';
+          document.getElementById("deliveryId").selected = true;
           document.getElementById("delivery-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'refunds') {
-          value == 'refund';
+          document.getElementById("refundId").selected = true;
           document.getElementById("refund-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'my-order') {
-          value == 'order';
+          document.getElementById("orderId").selected = true;
           document.getElementById("myorder-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'products') {
-          value == 'products';
+          document.getElementById("productsId").selected = true;
           document.getElementById("products-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'payments') {
-          value == 'payments';
+          document.getElementById("paymentsId").selected = true;
           document.getElementById("payments-section").classList.add("active");
         } else if(window.location.href.split('#')[1] == 'technical') {
-          value == 'technical';
+          document.getElementById("technicalId").selected = true;
           document.getElementById("technical-section").classList.add("active");
         }
 }
@@ -116,7 +115,7 @@ function valChange() {
     var select = document.getElementById("faqCategories");
     var value = select.options[select.selectedIndex].value;
 
-    if (value == 'payments') {
+    if (value == 'delivery') {
         document.getElementById("delivery-section").classList.add("active")
       } else {
         document.getElementById("delivery-section").classList.remove("active")
