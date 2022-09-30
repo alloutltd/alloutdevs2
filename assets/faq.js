@@ -91,33 +91,33 @@ window.onload = function() {
     console.log('this is the value: ' + value);
 
     if(window.location.href.split('#')[1] == 'delivery') {
-        value.remove;
-        value == 'delivery';
+        select.value.remove;
+        select.value == 'delivery';
         console.log(value);
         document.getElementById("delivery-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'refunds') {
-        value.remove;
-        value == 'refund';
+        select.value.remove;
+        select.value == 'refund';
         console.log(value);
         document.getElementById("refund-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'my-order') {
-        value.remove;
-        value == 'order';
+        select.value.remove;
+        select.value == 'order';
         console.log(value);
         document.getElementById("myorder-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'products') {
-        value.remove;
-        value == 'product';
+        select.value.remove;
+        select.value == 'product';
         console.log(value);
         document.getElementById("products-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'payments') {
-        value.remove;
-        value == 'payments';
+        select.value.remove;
+        select.value == 'payments';
         console.log(value);
         document.getElementById("payments-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'technical') {
-        value.remove;
-        value == 'technical';
+        select.value.remove;
+        vaselect.valuelue == 'technical';
         console.log(value);
         document.getElementById("technical-section").classList.add("active");
     }
