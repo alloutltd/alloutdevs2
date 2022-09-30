@@ -124,7 +124,7 @@ select {
     top: 0;
     right: 0;
     padding: 0 1em;
-    background: #fff;
+    /*background: #fff;*/
     cursor: pointer;
     pointer-events: none;
     transition: .25 all ease;
