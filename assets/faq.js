@@ -121,6 +121,7 @@ function valChange() {
         document.getElementById("delivery-section").classList.remove("active")
       }
       if (value == 'refund') {
+        select.value == 'refund';
         document.getElementById("refund-section").classList.add("active")
       } else {
         document.getElementById("refund-section").classList.remove("active")
