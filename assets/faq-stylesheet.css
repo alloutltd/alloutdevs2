@@ -119,17 +119,17 @@ select {
     cursor: pointer;
 }
 .select::after {
-    content: '\25BC';
+    /*content: '\25BC';*/
     position: absolute;
     top: 0;
     right: 0;
     padding: 0 1em;
-    /*background: #fff;*/
+    background: #fff;
     cursor: pointer;
     pointer-events: none;
     transition: .25 all ease;
-    /*border: 1px solid #000;
-    color: #000 !important;*/
+    border: 1px solid #000;
+    color: #000 !important;
 }
 .select:hover::after {
     color: #23b499;
