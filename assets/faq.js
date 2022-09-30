@@ -92,32 +92,32 @@ window.onload = function() {
 
     if(window.location.href.split('#')[1] == 'delivery') {
         value.remove;
-        value = 'delivery';
+        value == 'delivery';
         console.log(value);
         document.getElementById("delivery-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'refunds') {
         value.remove;
-        value = 'refund';
+        value == 'refund';
         console.log(value);
         document.getElementById("refund-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'my-order') {
         value.remove;
-        value = 'order';
+        value == 'order';
         console.log(value);
         document.getElementById("myorder-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'products') {
         value.remove;
-        value = 'product';
+        value == 'product';
         console.log(value);
         document.getElementById("products-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'payments') {
         value.remove;
-        value = 'payments';
+        value == 'payments';
         console.log(value);
         document.getElementById("payments-section").classList.add("active");
     } else if(window.location.href.split('#')[1] == 'technical') {
         value.remove;
-        value = 'technical';
+        value == 'technical';
         console.log(value);
         document.getElementById("technical-section").classList.add("active");
     }
