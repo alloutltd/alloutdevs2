@@ -158,3 +158,9 @@
   text-align: center;
   max-width: 100%;
 }
+
+@media (max-width: 425px) {
+  .newsletter-form {
+    width: 400px;
+    }
+}
