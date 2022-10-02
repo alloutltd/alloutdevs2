@@ -107,7 +107,6 @@ header {
     line-height: 3;
     background: #5c6664;
     overflow: hidden;
-    border-radius: .5em;
 }
 select::-ms-expand {
     display: none;
