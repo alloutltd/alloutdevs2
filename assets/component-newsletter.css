@@ -155,4 +155,6 @@
 .footer-block__heading {
   font-size: 20px;
   text-align: center;
+  padding: 0 auto;
+  margin: 0 auto;
 }
