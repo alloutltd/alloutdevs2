@@ -1252,3 +1252,9 @@ a {
 #product-title {
   font-size: 30px;
 }
+
+@media(max-width: 425px) {
+  #MainContent {
+    margin-top: 0;
+  }
+}
