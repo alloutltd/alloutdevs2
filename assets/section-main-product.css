@@ -1165,3 +1165,9 @@ a.product__text {
   color: aqua;
   margin-left: 20px;
 }
+
+@media screen and (max-width: 425px) {
+  #MainContent {
+    margin-top: 0;
+  }
+}
