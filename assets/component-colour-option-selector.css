@@ -30,4 +30,8 @@ li {
     .colour-option-image {
         max-height: 50px;
     }
+
+    .colour-options-container {
+        max-width: 100%;
+    }
 }
