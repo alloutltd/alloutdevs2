@@ -1248,3 +1248,7 @@ img {
 a {
   text-transform: none !important;
 }
+
+#product-title {
+  font-size: 30px;
+}
