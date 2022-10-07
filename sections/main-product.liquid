@@ -212,7 +212,7 @@ padding-bottom: {{ section.settings.padding_bottom }}px;
   {%- when 'title' -%}
     <div class="product__title" {{ block.shopify_attributes }}>
       <p class="collection">{{ product.metafields.my_fields.collection | upcase }} COLLECTION</p>
-      <h1>{{ product.title | escape | upcase }}</h1>
+      <h1 id="product-title">{{ product.title | escape | upcase }}</h1>
       {% comment %}
       <a href="{{ product.url }}" class="product__title">
         <h2 class="h1">
