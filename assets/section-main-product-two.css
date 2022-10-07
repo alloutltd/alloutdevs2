@@ -1253,7 +1253,7 @@ a {
   font-size: 30px;
 }
 
-@media(max-width: 425px) {
+@media screen and (max-width: 425px) {
   #MainContent {
     margin-top: 0;
   }
