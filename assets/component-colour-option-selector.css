@@ -25,3 +25,9 @@ li {
 .colour-option-image {
     max-height: 80px;
 }
+
+@media screen and (max-width: 425px) {
+    .colour-option-image {
+        max-height: 50px;
+    }
+}
