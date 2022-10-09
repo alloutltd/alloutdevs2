@@ -72,8 +72,7 @@ navbar.forEach(element => {
         }
     })
 })
-}
-else {
+} else {
 function valChange() {
 
     var select = document.getElementById("productInfoCategories");
