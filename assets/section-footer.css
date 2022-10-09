@@ -520,3 +520,9 @@ noscript .localization-selector.link {
 li a {
   font-weight: bold;
 }
+
+@media screen and (max-width: 475px) {
+  .footer-block__heading {
+    text-align: left;
+  }
+}
