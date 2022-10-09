@@ -36,7 +36,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/DUO_-_1_FINISHED.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 20,
         "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
