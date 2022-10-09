@@ -161,6 +161,10 @@ text-align: center;
     .select:hover::after {
         color: #23b499;
     }
+
+    .product-section-container {
+        margin-top: 50px;
+    }
     
     }
     @media(min-width: 1441px) {
