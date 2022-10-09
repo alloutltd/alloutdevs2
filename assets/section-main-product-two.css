@@ -1264,8 +1264,13 @@ a {
   }
 }
 
-@media screen and (min-width: 580px) and (max-width:750px) {
+@media screen and (min-width: 580px) and (max-width:620px) {
   #product__info-wrapper {
     margin-top: 50px;
+  }
+}
+@media screen and (min-width: 621px) and (max-width:750px) {
+  #product__info-wrapper {
+    margin-top: 85px;
   }
 }
