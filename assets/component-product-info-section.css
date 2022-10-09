@@ -100,7 +100,7 @@ text-align: center;
 }
 }
 @media(max-width: 1440px) {
-    .main-nav {
+    .product-info-container {
         display: none;
     }
     .mobile-nav {
