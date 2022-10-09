@@ -804,3 +804,9 @@ input {
 #no-account {
   margin-top: 0;
 }
+
+@media screen and (max-width: 425px) {
+  #MainContent {
+    margin-top: 30px !important;
+  }
+}
