@@ -1254,7 +1254,7 @@ a {
   max-width: fit-content;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 748px) {
   #Slider-Thumbnails-template--15950900134141__main {
     display: flex;
     flex-direction: row;
