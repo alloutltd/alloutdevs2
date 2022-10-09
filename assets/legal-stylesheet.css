@@ -156,3 +156,9 @@ nav ul li a.active {
 .info-container.active {
     display: block;
 }
+
+@media screen and (max-width: 426px) {
+    #MainContent {
+        margin-top: 80px !important;
+        }
+}
