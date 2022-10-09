@@ -1263,3 +1263,9 @@ a {
     align-items: center;
   }
 }
+
+@media screen and (min-width: 580px) and (max-width:750px) {
+  .product__info-wrapper grid__item {
+    margin-top: 50px;
+  }
+}
