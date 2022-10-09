@@ -1252,3 +1252,13 @@ a {
 #product-title {
   font-size: 30px;
 }
+
+@media screen and (max-width: 425px) {
+  #Slider-Thumbnails-template--15950900134141__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+  }
+}
