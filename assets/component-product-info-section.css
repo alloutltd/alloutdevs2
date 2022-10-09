@@ -103,4 +103,68 @@ text-align: center;
     .main-nav {
         display: none;
     }
-}
+    .mobile-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 20px;
+        border-bottom: 2px solid #000;
+    }
+    .cta {
+        margin: 30px 0;
+    }
+    /*select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        outline: 0;
+        box-shadow: none;
+        border: 0 !important;
+        background-image: none;
+        background-color: #fff;
+        border: 1px solid #000;
+        color: #000 !important;
+    }*/
+    .select {
+        position: relative;
+        display: flex;
+        width: 20em;
+        height: 3em;
+        line-height: 3;
+        background: #5c6664;
+        overflow: hidden;
+    }
+    select::-ms-expand {
+        display: none;
+    }
+    select {
+        flex: 1;
+        padding: 0 .5em;
+        color: #000 !important;
+        cursor: pointer;
+    }
+    .select::after {
+        /*content: '\25BC';*/
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0 1em;
+        /*background: #fff;*/
+        cursor: pointer;
+        pointer-events: none;
+        transition: .25 all ease;
+        border: 1px solid #000;
+        color: #000 !important;
+    }
+    .select:hover::after {
+        color: #23b499;
+    }
+    
+    }
+    @media(min-width: 1441px) {
+    .mobile-nav {
+        display: none;
+    }
+    }
