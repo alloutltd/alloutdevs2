@@ -809,4 +809,8 @@ input {
   #MainContent {
     margin-top: 30px !important;
   }
+
+  .customer:not(.account):not(.order) {
+    margin: 8rem auto 9rem !important;
+  }
 }
