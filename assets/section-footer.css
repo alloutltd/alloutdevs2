@@ -523,6 +523,6 @@ li a {
 
 @media screen and (max-width: 475px) {
   .footer-block__heading {
-    text-align: left;
+    text-align: inherit;
   }
 }
