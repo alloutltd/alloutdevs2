@@ -3,6 +3,12 @@
   display: block;
 }
 
+@media screen and (max-width: 424px) {
+  #MainContent {
+    margin-top: 80px !important;
+  }
+}
+
 .cart__empty-text,
 .is-empty .cart__contents,
 cart-items.is-empty .title-wrapper-with-link,
