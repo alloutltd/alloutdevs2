@@ -95,7 +95,6 @@
     },
     "featured_collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "New In",
         "heading_size": "h1",
@@ -116,7 +115,7 @@
         "show_rating": true,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 28,
         "padding_bottom": 36
       }
