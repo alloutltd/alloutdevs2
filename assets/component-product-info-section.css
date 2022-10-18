@@ -82,8 +82,6 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-border-bottom: 2px solid #141414;
-
 }
 
 .text-container {
