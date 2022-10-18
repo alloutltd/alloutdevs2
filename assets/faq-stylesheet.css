@@ -106,15 +106,20 @@ header {
     height: 3em;
     line-height: 3;
     overflow: hidden;
+    border: none !important;
 }
 select::-ms-expand {
     display: none;
+    border: none !important;
+
 }
 select {
     flex: 1;
     padding: 0 .5em;
     color: #000 !important;
     cursor: pointer;
+    border: none !important;
+
 }
 .select::after {
     /*content: '\25BC';*/
@@ -127,9 +132,13 @@ select {
     pointer-events: none;
     transition: .25 all ease;
     color: #000 !important;
+    border: none !important;
+
 }
 .select:hover::after {
     color: #23b499;
+    border: none !important;
+
 }
 
 }
