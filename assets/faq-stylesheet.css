@@ -105,7 +105,6 @@ header {
     width: 20em;
     height: 3em;
     line-height: 3;
-    
     overflow: hidden;
 }
 select::-ms-expand {
@@ -127,7 +126,6 @@ select {
     cursor: pointer;
     pointer-events: none;
     transition: .25 all ease;
-    border: 1px solid #000;
     color: #000 !important;
 }
 .select:hover::after {
