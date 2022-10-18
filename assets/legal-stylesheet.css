@@ -104,7 +104,6 @@ nav ul li a.active {
         width: 20em;
         height: 3em;
         line-height: 3;
-        background: #5c6664;
         overflow: hidden;
     }
     select::-ms-expand {
