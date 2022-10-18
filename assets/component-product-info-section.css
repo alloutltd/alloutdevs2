@@ -76,7 +76,7 @@ display: none;
 }
 
 .sec.active {
-width: 70vw;
+width: 100vw;
 height: 20vh;
 display: flex;
 flex-direction: column;
